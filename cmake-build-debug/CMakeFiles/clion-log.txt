@@ -1,0 +1,49 @@
+/home/marko/software/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/home/marko/workspace/install/reldeb-gcc -G "CodeBlocks - Unix Makefiles" /home/marko/workspace/src/stp-master
+-- Doing a Debug build
+-- GIT hash found: GITDIR-NOTFOUND
+-- PROJECT_VERSION: 2.1.2
+-- PROJECT_VERSION_MAJOR: 2
+-- PROJECT_VERSION_MINOR: 1
+-- PROJECT_VERSION_PATCH: 2
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   program_options
+-- Could NOT find cryptominisat5 (missing: cryptominisat5_DIR)
+CMake Warning at CMakeLists.txt:338 (message):
+  CryptoMiniSat5 (5.0 or above) or C++11 support not found, not allowing
+  --cryptominisat option
+
+
+-- Finding minisat headers...
+-- looking at:  
+-- found: MINISAT_INCLUDE_DIR: /home/marko/workspace/install/reldeb-gcc/include
+-- Finding dynamic minisat libs...
+-- looking at:  
+-- found: MINISAT_LIBRARY: /home/marko/workspace/install/reldeb-gcc/lib/libminisat.so
+-- Found minisat: /home/marko/workspace/install/reldeb-gcc/lib/libminisat.so  
+-- OK, found Minisat library under /home/marko/workspace/install/reldeb-gcc/lib/libminisat.so and Minisat include dirs under /home/marko/workspace/install/reldeb-gcc/include
+-- Found BISON: /usr/bin/bison (found version "3.0.4") 
+-- Found FLEX: /usr/bin/flex (found version "2.6.0") 
+-- All defines at startup:  -D__STDC_LIMIT_MACROS
+-- Found PythonInterp: /usr/bin/python2.7 (found suitable version "2.7.12", minimum required is "2.7") 
+-- Found PythonLibs: /usr/lib/i386-linux-gnu/libpython2.7.so (found suitable version "2.7.12", minimum required is "2.7") 
+-- PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python2.7
+-- PYTHON_LIBRARY:FILEPATH=/usr/lib/i386-linux-gnu/libpython2.7.so
+-- PYTHON_INCLUDE_DIR:FILEPATH=/usr/include/python2.7
+-- PYTHONLIBS_VERSION_STRING=2.7.12
+-- OK, found python interpreter, libs and header files
+-- Python found, enabling python interface
+-- Final CXX flags -std=c++11  -Wall -Wextra -Wunused -pedantic -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -fPIC
+-- Found Perl: /usr/bin/perl (found version "5.22.1") 
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Performing Test HAVE_C_FLAG_-fPIC
+-- Performing Test HAVE_C_FLAG_-fPIC - Success
+-- Detected python site package directory /usr/lib/python2.7/dist-packages
+CMake Warning at CMakeLists.txt:487 (message):
+  Testing is disabled
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marko/workspace/src/stp-master/cmake-build-debug
