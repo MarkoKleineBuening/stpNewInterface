@@ -159,6 +159,7 @@ void Cnf_DataFree( Cnf_Dat_t * p )
 ***********************************************************************/
 void Cnf_DataWriteIntoFile( Cnf_Dat_t * p, char * pFileName, int fReadable )
 {
+    printf("Output of CNF into file: %s.\n", pFileName);
     FILE * pFile;
     int * pLit, * pStop, i;
     pFile = fopen( pFileName, "w" );

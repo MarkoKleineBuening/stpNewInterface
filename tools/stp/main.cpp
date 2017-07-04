@@ -229,6 +229,8 @@ void ExtraMain::create_options()
   output_options.add_options()
   ("output-CNF", po::bool_switch(&(bm->UserFlags.output_CNF_flag)),
       "Save the CNF into output_[0..n].cnf. NOTE: variables cannot be mapped back, and problems solved by the preprocessing simplifier alone will not generate any CNF as the SAT solver is never invoked")
+          ("simple-CNF", po::bool_switch(&(bm->UserFlags.simple_cnf)),
+           "Use the simple cnf generation that does not optimize the cnf output.")
   ("output-bench", po::bool_switch(&(bm->UserFlags.output_bench_flag)),
       "save in ABC's bench format to output.bench");
 
@@ -341,6 +343,11 @@ int ExtraMain::parse_options(int argc, char** argv)
   if (vm.count("disable-simplifications"))
   {
     bm->UserFlags.disableSimplifications();
+  }
+
+  if (vm.count("disable-preprocessing"))
+  {
+    bm->UserFlags.disablePreprocessing();
   }
 
   if (vm.count("disable-equality"))

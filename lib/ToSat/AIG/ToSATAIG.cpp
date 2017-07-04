@@ -34,6 +34,7 @@ int ToSATAIG::cnf_calls = 0;
 bool ToSATAIG::CallSAT(SATSolver& satSolver, const ASTNode& input,
                        bool needAbsRef)
 {
+  //std::cout << "call of:  CallSAT in ToSATAIG\n";
   if (cb != NULL && cb->isUnsatisfiable())
     return false;
 
@@ -54,6 +55,8 @@ bool ToSATAIG::CallSAT(SATSolver& satSolver, const ASTNode& input,
 
   first = false;
   Cnf_Dat_t* cnfData = bitblast(input, needAbsRef);
+
+    //std::cout << "call of:  handle_cnf_options(cnfData, needAbsRef);\n";
   handle_cnf_options(cnfData, needAbsRef);
 
   assert(satSolver.nVars() == 0);
@@ -85,8 +88,10 @@ void ToSATAIG::release_cnf_memory(Cnf_Dat_t* cnfData)
 
 void ToSATAIG::handle_cnf_options(Cnf_Dat_t* cnfData, bool needAbsRef)
 {
+    //std::cout << "HandleCnfOptions: output_CNF: " << bm->UserFlags.output_CNF_flag << "\n";
   if (bm->UserFlags.output_CNF_flag)
   {
+     // std::cout << "Number of Clauses: " << cnfData->nClauses << "\n";
     std::stringstream fileName;
     fileName << "output_" << bm->CNFFileNameCounter++ << ".cnf";
     Cnf_DataWriteIntoFile(cnfData, (char*)fileName.str().c_str(), 0);
@@ -115,11 +120,17 @@ Cnf_Dat_t* ToSATAIG::bitblast(const ASTNode& input, bool needAbsRef)
   BBNodeManagerAIG mgr;
   BitBlaster<BBNodeAIG, BBNodeManagerAIG> bb(
       &mgr, &simp, bm->defaultNodeFactory, &bm->UserFlags, cb);
-
+  /*  print input for BBForm()
+      input.LispPrint(std::cout, 2);
+  */
   bm->GetRunTimes()->start(RunTimes::BitBlasting);
   BBNodeAIG BBFormula = bb.BBForm(input);
   bm->GetRunTimes()->stop(RunTimes::BitBlasting);
-
+    /* print out the AIG Tree
+        std::flush(std::cout);
+        std::flush(std::cerr);
+        BBFormula.print();
+    */
   delete cb;
   cb = NULL;
   bb.cb = NULL;

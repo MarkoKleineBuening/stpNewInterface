@@ -124,7 +124,8 @@ void ToCNFAIG::toCNF(const BBNodeAIG& top, Cnf_Dat_t*& cnfData,
   }
 
   dag_aware_aig_rewrite(needAbsRef, mgr);
-
+    //TODO Marko uf-simple_cnf
+    //std::cout << "simple cnf: " << uf.simple_cnf << "\n";
   if (!uf.simple_cnf)
   {
     cnfData = Cnf_Derive(mgr.aigMgr, 0);

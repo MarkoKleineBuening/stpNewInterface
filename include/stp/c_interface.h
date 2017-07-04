@@ -117,12 +117,17 @@ DLL_PUBLIC void process_argument(const char ch, VC bm);
 //!        enable_bitblast_simplification =false;
 //!        wordlevel_solve_flag = false;
 //!        propagate_equalities = false;
+//!!!      preprocessing_flag = false;
 void vc_disableSimplifications(VC vc);
 
 //! \brief  enables stp option --output-cnf
 //!         writes the CNF into file output_[0..N].cnf
 void vc_outputCNF(VC vc);
 
+
+//! \brief  if the output-CNF option is activated use the
+//!         simple CNF Format
+void vc_useSimpleCNF(VC vc);
 
 //! \brief Deprecated: use process_argument instead!
 //! 

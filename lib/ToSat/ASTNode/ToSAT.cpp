@@ -115,7 +115,7 @@ bool ToSAT::toSATandSolve(SATSolver& newSolver, ClauseList& cll, bool final,
   }
 
   ClauseContainer& cc = *cll.asList();
-
+    std::cout << "Dumping to CNF File: " << bm->UserFlags.output_CNF_flag << "\n";
   if (bm->UserFlags.output_CNF_flag && true)
   {
     dump_to_cnf_file(newSolver, cll, &cc);
@@ -277,6 +277,7 @@ ClauseBuckets* ToSAT::Sort_ClauseList_IntoBuckets(
 bool ToSAT::CallSAT_On_ClauseBuckets(SATSolver& SatSolver, ClauseBuckets* cb,
                                      ASTtoCNF*& cm)
 {
+    //std::cout << "call of:  CallSAT_On_ClauseBuckets \n";
   ClauseBuckets::iterator it = cb->begin();
   ClauseBuckets::iterator itend = cb->end();
 
@@ -299,6 +300,7 @@ bool ToSAT::CallSAT_On_ClauseBuckets(SATSolver& SatSolver, ClauseBuckets* cb,
 // SOLVER_UNDECIDED
 bool ToSAT::CallSAT(SATSolver& SatSolver, const ASTNode& input, bool /*refinement*/)
 {
+    //std::cout << "call of:  CallSAT \n";
   bm->GetRunTimes()->start(RunTimes::BitBlasting);
 
   ASTNode BBFormula;
@@ -328,6 +330,7 @@ bool ToSAT::CallSAT(SATSolver& SatSolver, const ASTNode& input, bool /*refinemen
 
   ASTtoCNF* to_cnf = new ASTtoCNF(bm);
   ClauseList* cl = to_cnf->convertToCNF(BBFormula);
+  //TODO Marko ClauseList is available here.
 
   ClauseBuckets* cl_buckets = Sort_ClauseList_IntoBuckets(cl, 3);
   cl->asList()->clear(); // clause buckets now point to the clauses.

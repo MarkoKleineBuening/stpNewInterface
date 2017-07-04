@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\.git\;CMake Files\.git\refs\;CMake Files\.git\refs\heads\;CMake Files\include\;CMake Files\include\stp\;CMake Files\lib\;CMake Files\lib\Globals\;CMake Files\lib\AST\;CMake Files\lib\AbsRefineCounterExample\;CMake Files\lib\Simplifier\;CMake Files\lib\Printer\;CMake Files\lib\Parser\;CMake Files\lib\Interface\;CMake Files\lib\extlib-abc\;CMake Files\lib\extlib-constbv\;CMake Files\lib\STPManager\;CMake Files\lib\ToSat\;CMake Files\lib\Sat\;CMake Files\lib\Util\;CMake Files\tools\;CMake Files\tools\stp\;CMake Files\tools\stp_simple\;CMake Files\bindings\;CMake Files\bindings\python\;CMake Files\bindings\python\stp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/marko/workspace/src/stp-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstp">
+				<Option output="/home/marko/workspace/src/stp-master/lib/libstp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 libstp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstp/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/libstp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 libstp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stpglobals">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Globals/CMakeFiles/stpglobals.dir/stpglobals.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Globals"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 stpglobals"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stpglobals/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Globals/CMakeFiles/stpglobals.dir/stpglobals.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Globals"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 stpglobals/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Globals/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ASTKind_header">
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/AST"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 ASTKind_header"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AST">
+				<Option output="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/AST.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/AST"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 AST"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AST/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/AST.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/AST"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 AST/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abstractionrefinement">
+				<Option output="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/abstractionrefinement.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 abstractionrefinement"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abstractionrefinement/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/abstractionrefinement.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 abstractionrefinement/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplifier">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Simplifier"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 simplifier"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplifier/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Simplifier"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 simplifier/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Simplifier/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printer">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/printer.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Printer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/src/AST"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 printer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printer/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/printer.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Printer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/src/AST"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 printer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Printer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser_headersmt2">
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Parser"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 parser_headersmt2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser_headersmt">
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Parser"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 parser_headersmt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser_headercvc">
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Parser"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 parser_headercvc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/parser.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 parser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/parser.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 parser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinterface">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Interface/CMakeFiles/cinterface.dir/cinterface.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Interface"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 cinterface"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinterface/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Interface/CMakeFiles/cinterface.dir/cinterface.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Interface"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 cinterface/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppinterface">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Interface/CMakeFiles/cppinterface.dir/cppinterface.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Interface"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 cppinterface"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppinterface/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Interface/CMakeFiles/cppinterface.dir/cppinterface.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Interface"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 cppinterface/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Interface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abc">
+				<Option output="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/abc.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/extlib-abc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib/extlib-abc"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 abc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abc/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/abc.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/extlib-abc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib/extlib-abc"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 abc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-abc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constantbv">
+				<Option output="/home/marko/workspace/src/stp-master/lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/extlib-constbv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 constantbv"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constantbv/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/extlib-constbv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 constantbv/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/extlib-constbv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stpmgr">
+				<Option output="/home/marko/workspace/src/stp-master/lib/STPManager/CMakeFiles/stpmgr.dir/stpmgr.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/STPManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 stpmgr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stpmgr/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/STPManager/CMakeFiles/stpmgr.dir/stpmgr.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/STPManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 stpmgr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/STPManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tosat">
+				<Option output="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/tosat.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/ToSat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 tosat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tosat/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/tosat.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/ToSat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 tosat/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/ToSat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sat">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Sat/CMakeFiles/sat.dir/sat.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Sat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 sat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sat/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Sat/CMakeFiles/sat.dir/sat.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Sat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 sat/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Sat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Util/CMakeFiles/util.dir/util.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 util"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util/fast">
+				<Option output="/home/marko/workspace/src/stp-master/lib/Util/CMakeFiles/util.dir/util.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/lib/Util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 util/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/lib/Util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stp">
+				<Option output="/home/marko/workspace/src/stp-master/stp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/tools/stp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 stp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stp/fast">
+				<Option output="/home/marko/workspace/src/stp-master/stp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/tools/stp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 stp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stp_simple">
+				<Option output="/home/marko/workspace/src/stp-master/stp_simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/tools/stp_simple"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 stp_simple"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stp_simple/fast">
+				<Option output="/home/marko/workspace/src/stp-master/stp_simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marko/workspace/src/stp-master/tools/stp_simple"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/home/marko/workspace/src/stp-master/include"/>
+					<Add directory="/home/marko/workspace/src/stp-master/lib"/>
+					<Add directory="/home/marko/workspace/install/reldeb-gcc/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 stp_simple/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marko/workspace/src/stp-master/tools/stp_simple/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/ASTBVConst.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/ASTInterior.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/ASTKind.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/ASTNode.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/ASTSymbol.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/ASTUtil.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/ASTmisc.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/MutableASTNode.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/MutableASTNode.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/NodeFactory/HashingNodeFactory.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/NodeFactory/NodeFactory.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/NodeFactory/TypeChecker.cpp">
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/genkinds.pl">
+			<Option target="ASTKind_header"/>
+			<Option target="AST"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/AbstractionRefinement.cpp">
+			<Option target="abstractionrefinement"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/ArrayTransformer.cpp">
+			<Option target="abstractionrefinement"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/ArrayTransformer.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/CounterExample.cpp">
+			<Option target="abstractionrefinement"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Globals/CMakeFiles/stpglobals.dir/Globals.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Globals/Globals.cpp">
+			<Option target="stpglobals"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Interface/c_interface.cpp">
+			<Option target="cinterface"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Interface/cpp_interface.cpp">
+			<Option target="cppinterface"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/LetMgr.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/lexcvc.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/lexsmt.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/lexsmt2.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsecvc.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsecvc.cpp.rule">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsecvc.hpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsesmt.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsesmt.cpp.rule">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsesmt.hpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsesmt2.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsesmt2.cpp.rule">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/parsesmt2.hpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/AssortedPrinters.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/BenchPrinter.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CPrinter.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/GDLPrinter.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/LispPrinter.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/PLPrinter.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/SMTLIB1Printer.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/SMTLIB2Printer.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/SMTLIBPrinter.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/dotPrinter.cpp">
+			<Option target="printer"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/STPManager/STP.cpp">
+			<Option target="stpmgr"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/STPManager/STPManager.cpp">
+			<Option target="stpmgr"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Sat/MinisatCore.cpp">
+			<Option target="sat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Sat/SimplifyingMinisat.cpp">
+			<Option target="sat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/AIGSimplifyPropositionalCore.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/BVSolver.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/AIGSimplifyPropositionalCore.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/BVSolver.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/DifficultyScore.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/FindPureLiterals.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/Simplifier.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/UseITEContext.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/DifficultyScore.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/FindPureLiterals.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/PropagateEqualities.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/RemoveUnconstrained.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/Simplifier.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/SubstitutionMap.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/UseITEContext.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/VariablesInExpression.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/constantBitP/FixedBits.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/consteval.cpp">
+			<Option target="simplifier"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/AIG/BBNodeManagerAIG.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/AIG/ToCNFAIG.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/AIG/ToSATAIG.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/ASTNode/ASTtoCNF.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/ASTNode/ClauseList.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/ASTNode/ToSAT.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/BitBlaster.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ASTtoCNF.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/ToSATBase.cpp">
+			<Option target="tosat"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Util/CMakeFiles/util.dir/GitSHA1.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Util/CMakeFiles/util.dir/RunTimes.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Util/GitSHA1.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Util/RunTimes.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigCheck.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigDfs.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigFanout.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigMan.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigMem.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigMffc.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigObj.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigOper.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigOrder.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigPart.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigRepr.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigRet.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigScl.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigSeq.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigShow.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigTable.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigTime.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigTiming.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigTruth.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigTsim.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigUtil.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/aig/aigWin.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfCore.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfCut.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfData.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfMan.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfMap.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfPost.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfUtil.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfWrite.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darBalance.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darCore.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darCut.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darData.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darLib.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darMan.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darPrec.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darRefact.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/dar/darScript.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/kit/kitAig.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/kit/kitGraph.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/kit/kitIsop.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/kit/kitSop.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/aig/kit/kitTruth.c">
+			<Option target="abc"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o">
+			<Option target="libstp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-constbv/constantbv.cpp">
+			<Option target="constantbv"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-constbv/constantbv.h">
+			<Option target="constantbv"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp/STPProgramGlobals.cpp">
+			<Option target="stp"/>
+			<Option target="stp_simple"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp/STPProgramGlobals.h">
+			<Option target="stp"/>
+			<Option target="stp_simple"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp/main.cpp">
+			<Option target="stp"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp/main_common.cpp">
+			<Option target="stp"/>
+			<Option target="stp_simple"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp/main_common.h">
+			<Option target="stp"/>
+			<Option target="stp_simple"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp_simple/main_simple.cpp">
+			<Option target="stp_simple"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/STPConfig.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/STPConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/STPConfig.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/cmake/modules/MacroPushRequiredVars.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/cmake/modules/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/cmake/modules/GetGitRevisionDescription.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/cmake/modules/Findminisat.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/cmake/modules/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/.git/HEAD">
+			<Option virtualFolder="CMake Files\.git\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/.git/refs/heads/master">
+			<Option virtualFolder="CMake Files\.git\refs\heads\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/include/stp/config.h.in">
+			<Option virtualFolder="CMake Files\include\stp\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Globals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Globals\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AST/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\AST\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/AbsRefineCounterExample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\AbsRefineCounterExample\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Simplifier/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Simplifier\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Printer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Printer\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Parser\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Interface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Interface\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-abc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\extlib-abc\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/extlib-constbv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\extlib-constbv\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/STPManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\STPManager\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/ToSat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\ToSat\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Sat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Sat\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Util\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/lib/Util/GitSHA1.cpp.in">
+			<Option virtualFolder="CMake Files\lib\Util\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\stp\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/tools/stp_simple/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\stp_simple\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/bindings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bindings\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/bindings/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bindings\python\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/bindings/python/stp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bindings\python\stp\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/bindings/python/stp/library_path.py.in">
+			<Option virtualFolder="CMake Files\bindings\python\stp\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/bindings/python/stp/stp.py.in">
+			<Option virtualFolder="CMake Files\bindings\python\stp\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/bindings/python/stp/__init__.py.in">
+			<Option virtualFolder="CMake Files\bindings\python\stp\"/>
+		</Unit>
+		<Unit filename="/home/marko/workspace/src/stp-master/bindings/python/stp/library_path.py.in_install">
+			<Option virtualFolder="CMake Files\bindings\python\stp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

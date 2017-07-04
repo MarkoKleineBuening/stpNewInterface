@@ -480,7 +480,8 @@ Cnf_Dat_t * Cnf_DeriveSimple( Aig_Man_t * p, int nOutputs )
         pCnf->pVarNums[pObj->Id] = Number++;
     pCnf->pVarNums[Aig_ManConst1(p)->Id] = Number++;
     pCnf->nVars = Number;
-/*
+
+    /*
     // print CNF numbers
     printf( "SAT numbers of each node:\n" );
     Aig_ManForEachObj( p, pObj, i )

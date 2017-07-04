@@ -1,0 +1,34 @@
+Performing C++ SOURCE FILE Test HAVE_FLAG_STDLIB_LIBCPP failed with the following output:
+Change Dir: /home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf4a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf4a4.dir/build.make CMakeFiles/cmTC_cf4a4.dir/build
+make[1]: Entering directory '/home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf4a4.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_FLAG_STDLIB_LIBCPP   -stdlib=libc++ -o CMakeFiles/cmTC_cf4a4.dir/src.cxx.o -c /home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-stdlib=libc++'
+CMakeFiles/cmTC_cf4a4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cf4a4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_cf4a4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf4a4/fast' failed
+make: *** [cmTC_cf4a4/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wheader-guard failed with the following output:
+Change Dir: /home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04aef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04aef.dir/build.make CMakeFiles/cmTC_04aef.dir/build
+make[1]: Entering directory '/home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04aef.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall -Wextra -Wunused -pedantic -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-Wheader-guard   -Wheader-guard -o CMakeFiles/cmTC_04aef.dir/src.cxx.o -c /home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wheader-guard'
+CMakeFiles/cmTC_04aef.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_04aef.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_04aef.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/marko/workspace/src/stp-master/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04aef/fast' failed
+make: *** [cmTC_04aef/fast] Error 2
+
+Source file was:
+int main() { return 0; }

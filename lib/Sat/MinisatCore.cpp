@@ -83,6 +83,7 @@ bool MinisatCore::propagateWithAssumptions(const stp::SATSolver::vec_literals & 
 
 bool MinisatCore::solve(bool& timeout_expired) // Search without assumptions.
 {
+  //std::cout << "call of:  solve in MinisatCore \n";
   if (!s->simplify())
     return false;
 

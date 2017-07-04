@@ -59,6 +59,8 @@ public:
 
   // the Simplifier functions (which might increase the size).
   bool optimize_flag ;
+  // should stp use preprocessing (default should be true)
+  bool preprocessing_flag;
   // turn on word level bitvector solver
   bool wordlevel_solve_flag ;
   // Remove equalities.
@@ -160,6 +162,11 @@ public:
     wordlevel_solve_flag = false;
     propagate_equalities = false;
   }
+
+    void disablePreprocessing(){
+        disableSimplifications();
+        preprocessing_flag = false;
+    }
 
   UserDefinedFlags()
   {

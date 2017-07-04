@@ -48,13 +48,19 @@ extern int smtparse(void*);
 
 void vc_disableSimplifications(VC vc){
     stp::STPMgr* b = (stp::STPMgr*)(((stp::STP*)vc)->bm);
-    b->UserFlags.disableSimplifications();
+    b->UserFlags.disablePreprocessing();
 }
 
 void vc_outputCNF(VC vc){
     stp::STPMgr* b = (stp::STPMgr*)(((stp::STP*)vc)->bm);
     b->UserFlags.output_CNF_flag = true;
 }
+
+void vc_useSimpleCNF(VC vc){
+  stp::STPMgr* b = (stp::STPMgr*)(((stp::STP*)vc)->bm);
+  b->UserFlags.simple_cnf = true;
+}
+
 // TODO remove this, it's really ugly
 void vc_setFlags(VC vc, char c, int /*param_value*/)
 {
@@ -471,6 +477,8 @@ int vc_query(VC vc, Expr e)
 int vc_query_with_timeout(VC vc, Expr e, int timeout_ms)
 {
   stp::ASTNode* a = (stp::ASTNode*)e;
+    //std::cout<< "query out of Expr: ";
+    //a->LispPrint(std::cout, 1);
   stp::STP* stpObj = ((stp::STP*)vc);
   stp::STPMgr* b = (stp::STPMgr*)(stpObj->bm);
 
@@ -504,7 +512,6 @@ int vc_query_with_timeout(VC vc, Expr e, int timeout_ms)
   {
     output = stpObj->TopLevelSTP(b->CreateNode(stp::TRUE), *a);
   }
-
   return output;
 }
 
