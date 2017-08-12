@@ -618,6 +618,7 @@ static inline void Vec_PtrPush( Vec_Ptr_t * p, void * Entry )
             Vec_PtrGrow( p, 2 * p->nCap );
     }
     p->pArray[p->nSize++] = Entry;
+    //printf(" array size:%d", p->nSize);
 }
 
 /**Function*************************************************************

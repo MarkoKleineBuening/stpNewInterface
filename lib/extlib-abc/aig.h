@@ -97,7 +97,8 @@ struct Aig_Obj_t_  // 8 words
     unsigned         Level   : 24;   // the level of this node
     unsigned         nCuts   :  8;   // the number of cuts
     int              TravId;         // unique ID of last traversal involving the node
-    int              Id;             // unique ID of the node
+    int              Id;                // unique ID of the node
+    int              IdName;       // unique ID of the node but loaded from a map
     union {                          // temporary store for user's data
         void *       pData;
         int          iData;
@@ -156,7 +157,9 @@ struct Aig_Man_t_
     void *           pImpData;       // implication checking data
     Aig_TMan_t *     pManTime;       // the timing manager
     Vec_Ptr_t *      vMapped;
-    Vec_Int_t *      vFlopNums;      
+    Vec_Int_t *      vFlopNums;
+    Vec_Int_t *      nameList;      //holds forbidden id names
+    int              nameAdd;
     // timing statistics
     int              time1;
     int              time2;
@@ -308,7 +311,10 @@ static inline Aig_Obj_t * Aig_ManFetchMemory( Aig_Man_t * p )
     pTemp = (Aig_Obj_t *)Aig_MmFixedEntryFetch( p->pMemObjs );
     memset( pTemp, 0, sizeof(Aig_Obj_t) ); 
     Vec_PtrPush( p->vObjs, pTemp );
-    pTemp->Id = p->nCreated++;
+    //TODO edit Marko
+    pTemp->Id = p->nCreated;
+    pTemp->IdName = pTemp->Id+p->nameAdd;
+    p->nCreated++;
     return pTemp;
 }
 static inline void Aig_ManRecycleMemory( Aig_Man_t * p, Aig_Obj_t * pEntry )

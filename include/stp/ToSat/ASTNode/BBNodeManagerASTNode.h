@@ -55,6 +55,34 @@ public:
   }
 
   ~BBNodeManagerASTNode() {}
+  //edit Marko
+    void setName(std::string name) {
+      std::cout << "Wrong set Name in ASTNODE";
+    }
+
+    void setIndex(int index) {
+        std::cout << "Wrong set Index in ASTNODE";
+    }
+
+    std::map<std::string, std::vector<int>> getMap() {
+        std::cout << "Wrong get Map in ASTNODE";
+    }
+
+    void pushVectorIntoMap(){
+        std::cout << "Wrong pushVectorIntoMap in ASTNODE";
+    }
+
+    void setFirstRun(bool nope){
+        std::cout << "Wrong setFirstRun in ASTNODE";
+    }
+
+    void setMap(std::map<std::string, std::vector<int>> nope){
+        std::cout << "Wrong setMap in ASTNODE";
+    }
+
+    void setVectorInt(int nope){
+        std::cout << "Wrong setVectorInt in ASTNODE";
+    }
 
   ASTNode getTrue() { return ASTTrue; }
 

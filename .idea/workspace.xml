@@ -33,20 +33,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0a0007-d2db-4181-888a-9f31d8f63cda" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/output_0.cnf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/libstp.so.2.1" afterPath="$PROJECT_DIR$/lib/libstp.so.2.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stp-2.1.2" afterPath="$PROJECT_DIR$/stp-2.1.2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stp_simple" afterPath="$PROJECT_DIR$/stp_simple" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/STPManager/UserDefinedFlags.h" afterPath="$PROJECT_DIR$/include/stp/STPManager/UserDefinedFlags.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/c_interface.h" afterPath="$PROJECT_DIR$/include/stp/c_interface.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CounterExample.cpp" afterPath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CounterExample.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/c_interface.cpp" afterPath="$PROJECT_DIR$/lib/Interface/c_interface.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/git-data/head-ref" afterPath="$PROJECT_DIR$/CMakeFiles/git-data/head-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeAIG.h" afterPath="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeAIG.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h" afterPath="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/ToSat/AIG/ToSATAIG.h" afterPath="$PROJECT_DIR$/include/stp/ToSat/AIG/ToSATAIG.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/ToSat/ASTNode/BBNodeManagerASTNode.h" afterPath="$PROJECT_DIR$/include/stp/ToSat/ASTNode/BBNodeManagerASTNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/ToSat/BitBlaster.h" afterPath="$PROJECT_DIR$/include/stp/ToSat/BitBlaster.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CXX.includecache" afterPath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o" afterPath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o" afterPath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cppinterface.dir/CXX.includecache" afterPath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cppinterface.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o" afterPath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/CXX.includecache" afterPath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o" afterPath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/STPManager/STP.cpp" afterPath="$PROJECT_DIR$/lib/STPManager/STP.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Sat/MinisatCore.cpp" afterPath="$PROJECT_DIR$/lib/Sat/MinisatCore.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/AIGSimplifyPropositionalCore.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/AIGSimplifyPropositionalCore.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/CXX.includecache" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/Simplifier.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/Simplifier.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp" afterPath="$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp" afterPath="$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/ASTNode/ToSAT.cpp" afterPath="$PROJECT_DIR$/lib/ToSat/ASTNode/ToSAT.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp" afterPath="$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/CXX.includecache" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Util/CMakeFiles/util.dir/GitSHA1.cpp.o" afterPath="$PROJECT_DIR$/lib/Util/CMakeFiles/util.dir/GitSHA1.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Util/GitSHA1.cpp" afterPath="$PROJECT_DIR$/lib/Util/GitSHA1.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/C.includecache" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/aig.h" afterPath="$PROJECT_DIR$/lib/extlib-abc/aig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigMan.c" afterPath="$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigMan.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigObj.c" afterPath="$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigObj.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfMan.c" afterPath="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfMan.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c" afterPath="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/stp/main.cpp" afterPath="$PROJECT_DIR$/tools/stp/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/vecPtr.h" afterPath="$PROJECT_DIR$/lib/extlib-abc/vecPtr.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/stp/CMakeFiles/stp.dir/main_common.cpp.o" afterPath="$PROJECT_DIR$/tools/stp/CMakeFiles/stp.dir/main_common.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/stp_simple/CMakeFiles/stp_simple.dir/__/stp/main_common.cpp.o" afterPath="$PROJECT_DIR$/tools/stp_simple/CMakeFiles/stp_simple.dir/__/stp/main_common.cpp.o" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -83,97 +151,108 @@
       <file leaf-file-name="ToCNFAIG.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToSATAIG.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BitBlaster.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="1040" column="19" lean-forward="false" selection-start-line="1040" selection-start-column="19" selection-end-line="1040" selection-end-column="19" />
+              <folding>
+                <element signature="e#38885#38921#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitBlaster.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/stp/ToSat/BitBlaster.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4230">
+              <caret line="282" column="24" lean-forward="false" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnfWrite.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="534" column="20" lean-forward="false" selection-start-line="534" selection-start-column="20" selection-end-line="534" selection-end-column="20" />
+              <folding>
+                <element signature="e#1517#1535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aig.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4755">
+              <caret line="317" column="17" lean-forward="false" selection-start-line="317" selection-start-column="17" selection-end-line="317" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aigObj.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigObj.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BBNodeManagerAIG.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3270">
+              <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+              <folding>
+                <element signature="e#2077#3049#0" expanded="false" />
+                <element signature="e#3465#3618#0" expanded="false" />
+                <element signature="e#3628#3747#0" expanded="false" />
+                <element signature="e#3757#3808#0" expanded="false" />
+                <element signature="e#3912#3997#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToSATAIG.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="254">
+              <caret line="136" column="29" lean-forward="false" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CounterExample.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/AbsRefineCounterExample/CounterExample.cpp">
+      <file leaf-file-name="ToCNFAIG.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/ToCNFAIG.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="904" column="33" lean-forward="false" selection-start-line="904" selection-start-column="30" selection-end-line="904" selection-end-column="49" />
+            <state relative-caret-position="795">
+              <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="STP.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/STPManager/STP.cpp">
+      <file leaf-file-name="ToSATAIG.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/ToSATAIG.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output_0.cnf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output_0.cnf">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c_interface.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Interface/c_interface.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c_interface.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/stp/c_interface.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDefinedFlags.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/stp/STPManager/UserDefinedFlags.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="162" column="4" lean-forward="false" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/stp/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parsers.hpp" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/boost/program_options/detail/parsers.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="120" column="10" lean-forward="false" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+            <state relative-caret-position="1020">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,37 +262,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>BVMul</find>
-      <find>.print()</find>
-      <find>ID</find>
-      <find>simple_cnf</find>
-      <find>S</find>
-      <find>STP</find>
-      <find>STPMana</find>
-      <find>STPManag</find>
-      <find>STPManage</find>
-      <find>STPManager</find>
-      <find>disable-simplifications</find>
-      <find>Input for bb.BBForm</find>
-      <find>Modified input for CallSAT in CounterExample:</find>
-      <find>nf_DataWriteIntoFile has been called</find>
-      <find>output:</find>
-      <find>output-CNF</find>
-      <find>vc_output</find>
-      <find>vc_outputCNF</find>
-      <find>prepr</find>
-      <find>prepro</find>
+      <find>saveMap()</find>
+      <find>saveMap</find>
+      <find>output_</find>
+      <find>open(&quot;AIGtoCNF.txt&quot;, &quot;w&quot;);</find>
+      <find>access</find>
+      <find>open(&quot;AIGtoCNF.txt&quot;, &quot;r&quot;);</find>
       <find>if</find>
-      <find>if(p</find>
-      <find>if(pre</find>
-      <find>if(prep</find>
-      <find>if(prepro</find>
-      <find>if(prepr</find>
-      <find>p</find>
-      <find>preprocess</find>
-      <find>optimize_flag</find>
-      <find>propagate_equalities</find>
+      <find>ifs</find>
+      <find>ifst</find>
+      <find>ifstrea</find>
+      <find>ifstream</find>
+      <find>AIGtoCNF</find>
+      <find>loadMap</find>
+      <find>TEst.txt</find>
+      <find>Tst.txt</find>
+      <find>Test.txt</find>
+      <find>if \(line\) \{\n            free\(line\)\;\n        \}</find>
+      <find>fop</find>
+      <find>fope</find>
+      <find>fopen(&quot;NameToAIG.txt&quot;)</find>
+      <find>fopen(&quot;NameToAIG.txt&quot;</find>
+      <find>fopen(&quot;NameToAIG.txt</find>
+      <find>fopen(&quot;Na</find>
+      <find>fopen(&quot;N</find>
+      <find>fopen(&quot;</find>
+      <find>fopen(</find>
+      <find>f</find>
+      <find>fopen</find>
+      <find>fopen(&quot;NameToAIG.txt&quot;, &quot;r&quot;)</find>
+      <find>fopen(&quot;NameToAIG.txt&quot;, &quot;r&quot;);</find>
     </findStrings>
+    <replaceStrings>
+      <replace>IdName</replace>
+      <replace>getId(*pObj)</replace>
+      <replace>getId(pObj)</replace>
+      <replace>getId()</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,16 +309,26 @@
         <option value="$PROJECT_DIR$/include/stp/Globals/Globals.h" />
         <option value="$PROJECT_DIR$/lib/ToSat/ASTNode/ToSAT.cpp" />
         <option value="$PROJECT_DIR$/lib/Sat/MinisatCore.cpp" />
-        <option value="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c" />
-        <option value="$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp" />
         <option value="$PROJECT_DIR$/lib/AbsRefineCounterExample/CounterExample.cpp" />
-        <option value="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfMan.c" />
-        <option value="$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp" />
         <option value="$PROJECT_DIR$/include/stp/c_interface.h" />
-        <option value="$PROJECT_DIR$/lib/STPManager/STP.cpp" />
         <option value="$PROJECT_DIR$/include/stp/STPManager/UserDefinedFlags.h" />
         <option value="$PROJECT_DIR$/lib/Interface/c_interface.cpp" />
         <option value="$PROJECT_DIR$/tools/stp/main.cpp" />
+        <option value="$PROJECT_DIR$/lib/STPManager/STP.cpp" />
+        <option value="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfMan.c" />
+        <option value="$PROJECT_DIR$/include/stp/ToSat/ASTNode/BBNodeManagerASTNode.h" />
+        <option value="$PROJECT_DIR$/lib/extlib-abc/vecPtr.h" />
+        <option value="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeAIG.h" />
+        <option value="$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigObj.c" />
+        <option value="$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp" />
+        <option value="$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigMan.c" />
+        <option value="$PROJECT_DIR$/include/stp/ToSat/AIG/ToSATAIG.h" />
+        <option value="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h" />
+        <option value="$PROJECT_DIR$/lib/extlib-abc/aig.h" />
+        <option value="$PROJECT_DIR$/include/stp/ToSat/BitBlaster.h" />
+        <option value="$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp" />
+        <option value="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c" />
+        <option value="$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp" />
       </list>
     </option>
   </component>
@@ -266,24 +361,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="STP" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stp-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -622,32 +704,60 @@
       <workItem from="1498825524137" duration="138000" />
       <workItem from="1498826257627" duration="2183000" />
       <workItem from="1499071172018" duration="2649000" />
-      <workItem from="1499155833651" duration="925000" />
+      <workItem from="1499155833651" duration="2621000" />
+      <workItem from="1499781256199" duration="2478000" />
+      <workItem from="1499790667994" duration="664000" />
+      <workItem from="1499843035602" duration="132000" />
+      <workItem from="1500464709370" duration="5539000" />
+      <workItem from="1500561253450" duration="2804000" />
+      <workItem from="1500564621241" duration="892000" />
+      <workItem from="1500628671395" duration="1155000" />
+      <workItem from="1500644271025" duration="2914000" />
+      <workItem from="1500898147800" duration="5621000" />
+      <workItem from="1500905971285" duration="1656000" />
+      <workItem from="1500978404546" duration="4268000" />
+      <workItem from="1500984451298" duration="926000" />
+      <workItem from="1500989872650" duration="2959000" />
+      <workItem from="1501061065385" duration="7167000" />
+      <workItem from="1501492929891" duration="2279000" />
+      <workItem from="1501500161589" duration="2382000" />
+      <workItem from="1501762803590" duration="7668000" />
+      <workItem from="1501773285753" duration="2022000" />
+      <workItem from="1502186432924" duration="5408000" />
+      <workItem from="1502196419924" duration="7074000" />
+      <workItem from="1502204298857" duration="3204000" />
+      <workItem from="1502267932253" duration="5948000" />
+      <workItem from="1502279340719" duration="3817000" />
+      <workItem from="1502363050773" duration="3337000" />
+      <workItem from="1502369174414" duration="8206000" />
+      <workItem from="1502444196331" duration="11339000" />
+      <workItem from="1502460285097" duration="3308000" />
+      <workItem from="1502465168082" duration="2313000" />
+      <workItem from="1502558041667" duration="3098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51372000" />
+    <option name="totallyTimeSpent" value="163646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="25" width="1368" height="744" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2978395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42503864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2962963" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.50292826" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25811437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3771252" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51931995" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42503864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -661,228 +771,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="lot" />
+    <option name="LAST_COMMIT_MESSAGE" value="lot" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c</url>
-          <line>445</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/stp/main_common.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/Simplifier/DifficultyScore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/Simplifier/BVSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="130" column="2" lean-forward="false" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/Simplifier/PropagateEqualities.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/STPManager/STP.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/AST/ASTUtil.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/Globals/Globals.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="71" column="1" lean-forward="false" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/AST/ASTNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="123" column="7" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/AST/ASTInternal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="126" column="62" lean-forward="false" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Printer/AssortedPrinters.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/Printer/printers.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Printer/LispPrinter.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/STPManager/STPManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="503" column="36" lean-forward="false" selection-start-line="503" selection-start-column="33" selection-end-line="503" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/STPManager/STPManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="131" column="18" lean-forward="false" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/Sat/SATSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/Sat/MinisatCore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../install/reldeb-gcc/include/minisat/core/Solver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="62" column="12" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/AbsRefineCounterExample/AbstractionRefinement.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="381" column="19" lean-forward="false" selection-start-line="381" selection-start-column="15" selection-end-line="381" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/AbsRefineCounterExample/AbsRefine_CounterExample.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="128" column="2" lean-forward="false" selection-start-line="128" selection-start-column="2" selection-end-line="128" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/lib/ToSat/CMakeFiles/tosat.dir/build.make">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="166" column="227" lean-forward="false" selection-start-line="166" selection-start-column="227" selection-end-line="166" selection-end-column="227" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ToSat/ASTNode/ToSAT.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="105" column="12" lean-forward="false" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/ASTNode/ToSAT.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4620">
-          <caret line="308" column="20" lean-forward="false" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Sat/MinisatCore.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/ToSATBase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/AST/ASTNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/ToSATAIG.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/ToCNFAIG.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Interface/cpp_interface.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="421" column="0" lean-forward="false" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,62 +805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/BitBlaster.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="275" column="15" lean-forward="false" selection-start-line="275" selection-start-column="15" selection-end-line="275" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1031" column="1" lean-forward="false" selection-start-line="1031" selection-start-column="1" selection-end-line="1031" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/cnf_short.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="168" column="23" lean-forward="false" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfCore.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="73" column="22" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="471" column="41" lean-forward="false" selection-start-line="471" selection-start-column="41" selection-end-line="471" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/stp/cpp_interface.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1972">
           <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeAIG.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfMan.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="161" column="36" lean-forward="false" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -963,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="120" column="10" lean-forward="false" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,64 +835,330 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/stp/c_interface.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
+        <state relative-caret-position="1875">
           <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/STPManager/STP.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_bvector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8385">
+          <caret line="559" column="57" lean-forward="false" selection-start-line="559" selection-start-column="57" selection-end-line="559" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Interface/c_interface.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="122" column="6" lean-forward="false" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/STPManager/STPManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="28" lean-forward="false" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ToSat/AIG/BBNodeManagerAIG.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/ASTNode/BBNodeManagerASTNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="5" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Simplifier/AIGSimplifyPropositionalCore.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3015">
+          <caret line="201" column="17" lean-forward="false" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfUtil.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/dar/darBalance.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="83" column="22" lean-forward="false" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigOper.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="24" lean-forward="false" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/ASTNode/ToSAT.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/stp/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3555">
+          <caret line="237" column="44" lean-forward="false" selection-start-line="237" selection-start-column="30" selection-end-line="237" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/STPManager/UserDefinedFlags.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="130" column="7" lean-forward="false" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfMan.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="165" column="24" lean-forward="false" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/cnf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/AST/ASTNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/ToSATBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/AST/ASTInternal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/AST/ASTNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_pair.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="24" lean-forward="false" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/Sat/MinisatCore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Sat/MinisatCore.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="83" column="18" lean-forward="false" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/Sat/SATSolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/vecPtr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="620" column="5" lean-forward="false" selection-start-line="620" selection-start-column="5" selection-end-line="620" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/AbsRefineCounterExample/CounterExample.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="916" column="16" lean-forward="false" selection-start-line="916" selection-start-column="13" selection-end-line="916" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigPart.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9300">
+          <caret line="620" column="26" lean-forward="false" selection-start-line="620" selection-start-column="20" selection-end-line="620" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigCheck.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="17" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeAIG.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/vecInt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="637" column="0" lean-forward="false" selection-start-line="637" selection-start-column="0" selection-end-line="637" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigMan.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfCore.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/cnf_short.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="137" column="23" lean-forward="false" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/ToCNFAIG.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/aig/aigObj.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/ToSATAIG.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3270">
+          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding>
+            <element signature="e#2077#3049#0" expanded="false" />
+            <element signature="e#3465#3618#0" expanded="false" />
+            <element signature="e#3628#3747#0" expanded="false" />
+            <element signature="e#3757#3808#0" expanded="false" />
+            <element signature="e#3912#3997#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4755">
+          <caret line="317" column="17" lean-forward="false" selection-start-line="317" selection-start-column="17" selection-end-line="317" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stp/ToSat/BitBlaster.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4230">
+          <caret line="282" column="24" lean-forward="false" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="534" column="20" lean-forward="false" selection-start-line="534" selection-start-column="20" selection-end-line="534" selection-end-column="20" />
+          <folding>
+            <element signature="e#1517#1535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1040" column="19" lean-forward="false" selection-start-line="1040" selection-start-column="19" selection-end-line="1040" selection-end-column="19" />
+          <folding>
+            <element signature="e#38885#38921#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/AbsRefineCounterExample/CounterExample.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="904" column="33" lean-forward="false" selection-start-line="904" selection-start-column="30" selection-end-line="904" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Interface/c_interface.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/stp/STPManager/UserDefinedFlags.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="162" column="4" lean-forward="false" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/stp/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/STPManager/STP.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="136" column="29" lean-forward="false" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
           <folding />
         </state>
       </provider>

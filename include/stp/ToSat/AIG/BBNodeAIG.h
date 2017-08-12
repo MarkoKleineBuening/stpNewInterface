@@ -31,6 +31,7 @@ THE SOFTWARE.
 namespace stp
 {
 using std::cerr;
+    using std::cout;
 using std::endl;
 
 // This class wraps around a pointer to an AIG (provided by the ABC tool).
@@ -49,29 +50,62 @@ class BBNodeAIG
     if (c1Not)
       c1 = Aig_Not(c1);
 
-    cerr << node->Id;
-    cerr << "[" << node->Type << "]";
-    cerr << ": (";
+    cout << node->IdName;
+      cout << "[" << node->Type << "]";
+      cout << ": (";
     if (c0 != 0)
     {
       if (c0Not)
-        cerr << "-";
-      cerr << c0->Id;
-      cerr << ",";
+          cout << "-";
+        cout << c0->IdName;
+        cout << ",";
     }
     if (c1 != 0)
     {
       if (c1Not)
-        cerr << "-";
+          cout << "-";
 
-      cerr << c1->Id;
+        cout << c1->IdName;
     }
-    cerr << ")" << endl;
+      cout << ")" << endl;
     if (c0 != 0)
       print(c0);
     if (c1 != 0)
       print(c1);
   }
+
+    void printOld(Aig_Obj_t* node) const
+    {
+        Aig_Obj_t* c0 = node->pFanin0, *c1 = node->pFanin1;
+        bool c0Not = Aig_IsComplement(c0), c1Not = Aig_IsComplement(c1);
+        if (c0Not)
+            c0 = Aig_Not(c0);
+        if (c1Not)
+            c1 = Aig_Not(c1);
+
+        cerr << node->Id;
+        cerr << "[" << node->Type << "]";
+        cerr << ": (";
+        if (c0 != 0)
+        {
+            if (c0Not)
+                cerr << "-";
+            cerr << c0->Id;
+            cerr << ",";
+        }
+        if (c1 != 0)
+        {
+            if (c1Not)
+                cerr << "-";
+
+            cerr << c1->Id;
+        }
+        cerr << ")" << endl;
+        if (c0 != 0)
+            print(c0);
+        if (c1 != 0)
+            print(c1);
+    }
 
 public:
   intptr_t GetNodeNum() const { return (intptr_t)n; }
@@ -83,6 +117,9 @@ public:
   // vector of PIs.
   // To get its CNF variable number we get the node at the same position.
   int symbol_index;
+
+    // if the name of the object is changed, it is saved here but the index in the vector stays the same.
+    int name_index;
 
   BBNodeAIG() { n = NULL; }
 

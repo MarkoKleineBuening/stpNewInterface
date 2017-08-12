@@ -251,6 +251,7 @@ namespace stp {
         bool preprocessing = bm->UserFlags.preprocessing_flag;
         bm->ASTNodeStats("input asserts and query: ", original_input);
 
+
         DifficultyScore difficulty;
         if (bm->UserFlags.stats_flag)
             cerr << "Difficulty Initially:" << difficulty.score(original_input, bm) << endl;
@@ -261,8 +262,8 @@ namespace stp {
                 new PropagateEqualities(simp, bm->defaultNodeFactory, bm));
 
         ASTNode inputToSat = original_input;
-        //std::cout << "Input for TopLEvelSTPAux: ";
-        //inputToSat.LispPrint(std::cout, 1);
+        std::cout << "Input for TopLEvelSTPAux: ";
+        inputToSat.LispPrint(std::cout, 1);
 
         // If the number of array reads is small. We rewrite them through.
         // The bit-vector simplifications are more thorough than the array

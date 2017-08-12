@@ -26,7 +26,7 @@ THE SOFTWARE.
 #include "stp/Util/GitSHA1.h"
 const char* stp::get_git_version_sha()
 {
-    static const char version_sha[] = "961bc7c4dbf10ac7c959de7753d45817eb1ef591";
+    static const char version_sha[] = "d8a838d6378cd546c5153ac815868f8e0ee88f1d";
     return version_sha;
 }
 

@@ -125,6 +125,8 @@ cnf.h
 /home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnf.h
 
 /home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnfWrite.c
+zconf.h
+-
 cnf.h
 /home/marko/workspace/src/stp-master/lib/extlib-abc/aig/cnf/cnf.h
 

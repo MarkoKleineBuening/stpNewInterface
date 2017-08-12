@@ -83,6 +83,8 @@ stp/ToSat/AIG/ToCNFAIG.h
 /home/marko/workspace/src/stp-master/lib/ToSat/AIG/stp/ToSat/AIG/ToCNFAIG.h
 
 /home/marko/workspace/src/stp-master/lib/ToSat/AIG/ToSATAIG.cpp
+zconf.h
+-
 stp/ToSat/AIG/ToSATAIG.h
 /home/marko/workspace/src/stp-master/lib/ToSat/AIG/stp/ToSat/AIG/ToSATAIG.h
 stp/Simplifier/constantBitP/ConstantBitPropagation.h
@@ -128,6 +130,10 @@ stp/ToSat/ASTNode/ASTtoCNF.h
 cmath
 -
 cassert
+-
+iterator
+-
+zconf.h
 -
 stp/ToSat/BitBlaster.h
 /home/marko/workspace/src/stp-master/lib/ToSat/stp/ToSat/BitBlaster.h
@@ -563,6 +569,10 @@ list
 -
 stp/Simplifier/constantBitP/MultiplicationStats.h
 include/stp/ToSat/stp/Simplifier/constantBitP/MultiplicationStats.h
+fstream
+-
+iostream
+-
 
 include/stp/ToSat/ToSATBase.h
 stp/AST/AST.h

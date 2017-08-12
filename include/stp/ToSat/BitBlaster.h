@@ -31,6 +31,8 @@ THE SOFTWARE.
 #include "stp/STPManager/STPManager.h"
 #include <list>
 #include "stp/Simplifier/constantBitP/MultiplicationStats.h"
+#include <fstream>
+#include <iostream>
 
 namespace simplifier
 {
@@ -57,6 +59,7 @@ template <class BBNode, class BBNodeManagerT> class BitBlaster;
 template <class BBNode, class BBNodeManagerT> class BitBlaster // not copyable
 {
   BBNode BBTrue, BBFalse;
+    std::string m_name;
 
   // Memo table for bit blasted terms.  If a node has already been
   // bitblasted, it is mapped to a vector of Boolean formulas for
@@ -274,6 +277,10 @@ public:
 
   // Bitblast a formula
   const BBNode BBForm(const ASTNode& form);
+
+    void saveMap();
+    void loadMap();
+    void loadMapWithChar();
 
   void getConsts(const ASTNode& n, ASTNodeMap& fromTo, ASTNodeMap& equivs);
 };

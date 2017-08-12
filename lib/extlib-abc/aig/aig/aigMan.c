@@ -60,6 +60,7 @@ SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 ***********************************************************************/
 Aig_Man_t * Aig_ManStart( int nNodesMax )
 {
+    printf("AIG_ManStart\n");
     Aig_Man_t * p;
     if ( nNodesMax <= 0 )
         nNodesMax = 10007;
@@ -74,6 +75,9 @@ Aig_Man_t * Aig_ManStart( int nNodesMax )
     p->vPos  = Vec_PtrAlloc( 100 );
     p->vObjs = Vec_PtrAlloc( 1000 );
     p->vBufs = Vec_PtrAlloc( 100 );
+    //edit Marko allocate Array for forbidden idNames of Nodes
+    p->nameList = Vec_IntAlloc( 100 );
+    p->nameAdd = 0;
     // prepare the internal memory manager
     p->pMemObjs = Aig_MmFixedStart( sizeof(Aig_Obj_t), nNodesMax );
     // create the constant node
