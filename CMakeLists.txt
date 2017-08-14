@@ -29,6 +29,9 @@ if(NOT (CMAKE_MAJOR_VERSION LESS 2))
     endif()
 endif()
 
+add_definitions(-fsanitize=address)
+set(CMAKE_CXX_LINK_FLAGS ${CMAKE_CXX_LINK_FLAGS} -fsanitize=address)
+
 # Search paths for custom CMake modules
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/modules)
 

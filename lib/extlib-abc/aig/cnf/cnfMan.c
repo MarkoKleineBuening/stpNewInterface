@@ -172,6 +172,11 @@ void Cnf_DataWriteIntoFile( Cnf_Dat_t * p, char * pFileName, int fReadable )
     fprintf( pFile, "p cnf %d %d\n", p->nVars, p->nClauses );
     for ( i = 0; i < p->nClauses; i++ )
     {
+        //edit Marko
+        //we do not want to print the second last clause... not nice but efficient;)
+        if(i ==p->nClauses-2){
+            continue;
+        }
         //default ist fReadable = 0; Cnf_lit2Var2
         for ( pLit = p->pClauses[i], pStop = p->pClauses[i+1]; pLit < pStop; pLit++ )
             fprintf( pFile, "%d ", fReadable? Cnf_Lit2Var2(*pLit) : Cnf_Lit2Var(*pLit) );

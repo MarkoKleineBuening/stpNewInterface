@@ -76,7 +76,7 @@ Aig_Man_t * Aig_ManStart( int nNodesMax )
     p->vObjs = Vec_PtrAlloc( 1000 );
     p->vBufs = Vec_PtrAlloc( 100 );
     //edit Marko allocate Array for forbidden idNames of Nodes
-    p->nameList = Vec_IntAlloc( 100 );
+    //p->nameList = Vec_IntAlloc( 100 );
     p->nameAdd = 0;
     // prepare the internal memory manager
     p->pMemObjs = Aig_MmFixedStart( sizeof(Aig_Obj_t), nNodesMax );

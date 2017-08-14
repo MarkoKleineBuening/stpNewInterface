@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -g -fPIC   -D STP_EXPORTS
+C_FLAGS = -g -fPIC   -fsanitize=address -D STP_EXPORTS
 
 C_DEFINES = -D__STDC_LIMIT_MACROS -Dlibstp_EXPORTS
 
 C_INCLUDES = -I/home/marko/workspace/src/stp-master/include -I/home/marko/workspace/src/stp-master/lib -I/home/marko/workspace/install/reldeb-gcc/include 
 
-CXX_FLAGS = -std=c++11  -Wall -Wextra -Wunused -pedantic -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -fPIC -g -fPIC   -D STP_EXPORTS
+CXX_FLAGS = -std=c++11  -Wall -Wextra -Wunused -pedantic -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -fPIC -g -fPIC   -fsanitize=address -D STP_EXPORTS
 
 CXX_DEFINES = -D__STDC_LIMIT_MACROS -Dlibstp_EXPORTS
 

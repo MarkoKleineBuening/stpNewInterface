@@ -118,7 +118,8 @@ int Cnf_SopCountLiterals(char *pSop, int nCubes) {
 ***********************************************************************/
 int Cnf_IsopCountLiterals(Vec_Int_t *vIsop, int nVars) {
     int nLits = 0, Cube, i, b;
-    Vec_IntForEachEntry(vIsop, Cube, i) {
+    Vec_IntForEachEntry(vIsop, Cube, i)
+    {
         for (b = 0; b < nVars; b++) {
             if ((Cube & 3) == 1 || (Cube & 3) == 2)
                 nLits++;
@@ -178,7 +179,8 @@ Cnf_Dat_t *Cnf_ManWriteCnf(Cnf_Man_t *p, Vec_Ptr_t *vMapped, int nOutputs) {
     // count the number of literals and clauses
     nLiterals = 1 + Aig_ManPoNum(p->pManAig) + 3 * nOutputs;
     nClauses = 1 + Aig_ManPoNum(p->pManAig) + nOutputs;
-    Vec_PtrForEachEntry(vMapped, pObj, i) {
+    Vec_PtrForEachEntry(vMapped, pObj, i)
+    {
         assert(Aig_ObjIsNode(pObj));
         pCut = Cnf_ObjBestCut(pObj);
 
@@ -211,23 +213,29 @@ Cnf_Dat_t *Cnf_ManWriteCnf(Cnf_Man_t *p, Vec_Ptr_t *vMapped, int nOutputs) {
     memset(pCnf, 0, sizeof(Cnf_Dat_t));
     pCnf->nLiterals = nLiterals;
     pCnf->nClauses = nClauses;
-    pCnf->pClauses = ALLOC(int *, nClauses + 1);
-    pCnf->pClauses[0] = ALLOC(int, nLiterals);
+    pCnf->pClauses = ALLOC(
+    int *, nClauses + 1);
+    pCnf->pClauses[0] = ALLOC(
+    int, nLiterals);
     pCnf->pClauses[nClauses] = pCnf->pClauses[0] + nLiterals;
 
     // create room for variable numbers
-    pCnf->pVarNums = ALLOC(int, Aig_ManObjNumMax(p->pManAig));
+    pCnf->pVarNums = ALLOC(
+    int, Aig_ManObjNumMax(p->pManAig));
     memset(pCnf->pVarNums, 0xff, sizeof(int) * Aig_ManObjNumMax(p->pManAig));
     // assign variables to the last (nOutputs) POs
     Number = 1;
     if (nOutputs) {
         assert(nOutputs == Aig_ManRegNum(p->pManAig));
-        Aig_ManForEachLiSeq(p->pManAig, pObj, i)pCnf->pVarNums[pObj->Id] = Number++;
+        Aig_ManForEachLiSeq(p->pManAig, pObj, i)
+        pCnf->pVarNums[pObj->Id] = Number++;
     }
     // assign variables to the internal nodes
-    Vec_PtrForEachEntry(vMapped, pObj, i)pCnf->pVarNums[pObj->Id] = Number++;
+    Vec_PtrForEachEntry(vMapped, pObj, i)
+    pCnf->pVarNums[pObj->Id] = Number++;
     // assign variables to the PIs and constant node
-    Aig_ManForEachPi(p->pManAig, pObj, i)pCnf->pVarNums[pObj->Id] = Number++;
+    Aig_ManForEachPi(p->pManAig, pObj, i)
+    pCnf->pVarNums[pObj->Id] = Number++;
     pCnf->pVarNums[Aig_ManConst1(p->pManAig)->Id] = Number++;
     pCnf->nVars = Number;
 
@@ -235,7 +243,8 @@ Cnf_Dat_t *Cnf_ManWriteCnf(Cnf_Man_t *p, Vec_Ptr_t *vMapped, int nOutputs) {
     vSopTemp = Vec_IntAlloc(1 << 16);
     pLits = pCnf->pClauses[0];
     pClas = pCnf->pClauses;
-    Vec_PtrForEachEntry(vMapped, pObj, i) {
+    Vec_PtrForEachEntry(vMapped, pObj, i)
+    {
         pCut = Cnf_ObjBestCut(pObj);
 
         // save variables of this cut
@@ -252,7 +261,8 @@ Cnf_Dat_t *Cnf_ManWriteCnf(Cnf_Man_t *p, Vec_Ptr_t *vMapped, int nOutputs) {
             vCover = vSopTemp;
         } else
             vCover = pCut->vIsop[1];
-        Vec_IntForEachEntry(vCover, Cube, k) {
+        Vec_IntForEachEntry(vCover, Cube, k)
+        {
             *pClas++ = pLits;
             *pLits++ = 2 * OutVar;
             pLits += Cnf_IsopWriteCube(Cube, pCut->nFanins, pVars, pLits);
@@ -265,7 +275,8 @@ Cnf_Dat_t *Cnf_ManWriteCnf(Cnf_Man_t *p, Vec_Ptr_t *vMapped, int nOutputs) {
             vCover = vSopTemp;
         } else
             vCover = pCut->vIsop[0];
-        Vec_IntForEachEntry(vCover, Cube, k) {
+        Vec_IntForEachEntry(vCover, Cube, k)
+        {
             *pClas++ = pLits;
             *pLits++ = 2 * OutVar + 1;
             pLits += Cnf_IsopWriteCube(Cube, pCut->nFanins, pVars, pLits);
@@ -280,7 +291,8 @@ Cnf_Dat_t *Cnf_ManWriteCnf(Cnf_Man_t *p, Vec_Ptr_t *vMapped, int nOutputs) {
     *pLits++ = 2 * OutVar;
 
     // write the output literals
-    Aig_ManForEachPo(p->pManAig, pObj, i) {
+    Aig_ManForEachPo(p->pManAig, pObj, i)
+    {
         OutVar = pCnf->pVarNums[Aig_ObjFanin0(pObj)->Id];
         if (i < Aig_ManPoNum(p->pManAig) - nOutputs) {
             *pClas++ = pLits;
@@ -320,11 +332,14 @@ Cnf_Dat_t *Cnf_DeriveSimple_Additional(Aig_Man_t *p, Cnf_Dat_t *old) {
     // allocate CNF
     pCnf = ALLOC(Cnf_Dat_t, 1);
     memset(pCnf, 0, sizeof(Cnf_Dat_t));
-    pCnf->pClauses = ALLOC(int *, nClauses + 1);
-    pCnf->pClauses[0] = ALLOC(int, nLiterals);
+    pCnf->pClauses = ALLOC(
+    int *, nClauses + 1);
+    pCnf->pClauses[0] = ALLOC(
+    int, nLiterals);
 
     // create room for variable numbers
-    pCnf->pVarNums = ALLOC(int, Aig_ManObjNumMax(p));
+    pCnf->pVarNums = ALLOC(
+    int, Aig_ManObjNumMax(p));
     memset(pCnf->pVarNums, 0xff, sizeof(int) * Aig_ManObjNumMax(p));
 
     // This is the index of the highest CNF variable number.
@@ -333,46 +348,48 @@ Cnf_Dat_t *Cnf_DeriveSimple_Additional(Aig_Man_t *p, Cnf_Dat_t *old) {
     //Copy over the prior allocation of variables to the new variables
     memcpy(pCnf->pVarNums, old->pVarNums, sizeof(int) * old->nVars);
 
-    assert (pCnf->pVarNums[Aig_ManConst1(p)->Id] != -1);
+    assert(pCnf->pVarNums[Aig_ManConst1(p)->Id] != -1);
     Number = old->nVars + 1;
 
     // assign variables to the PIs
     newPI = 0;
-    Aig_ManForEachPi(p, pObj, i) if (pCnf->pVarNums[pObj->Id] == -1) // new!
-            pCnf->pVarNums[pObj->Id] = Number++;
+    Aig_ManForEachPi(p, pObj, i)
+    if (pCnf->pVarNums[pObj->Id] == -1) // new!
+        pCnf->pVarNums[pObj->Id] = Number++;
 
     //printf("new PI Nodes: %d\n", Number - (old->nVars+1));
 
     // assign the clauses
     pLits = pCnf->pClauses[0];
     pClas = pCnf->pClauses;
-    Aig_ManForEachNode(p, pObj, i) {
-            OutVar = pCnf->pVarNums[pObj->Id];
+    Aig_ManForEachNode(p, pObj, i)
+    {
+        OutVar = pCnf->pVarNums[pObj->Id];
 
-            if (pCnf->pVarNums[pObj->Id] == -1) {
-                OutVar = Number++;
-                pCnf->pVarNums[pObj->Id] = OutVar;
-            } else {
-                // This skips over variables that have already been generated.
-                continue;
-            }
-
-            pVars[0] = pCnf->pVarNums[Aig_ObjFanin0(pObj)->Id];
-            pVars[1] = pCnf->pVarNums[Aig_ObjFanin1(pObj)->Id];
-
-            // positive phase
-            *pClas++ = pLits;
-            *pLits++ = 2 * OutVar;
-            *pLits++ = 2 * pVars[0] + !Aig_ObjFaninC0(pObj);
-            *pLits++ = 2 * pVars[1] + !Aig_ObjFaninC1(pObj);
-            // negative phase
-            *pClas++ = pLits;
-            *pLits++ = 2 * OutVar + 1;
-            *pLits++ = 2 * pVars[0] + Aig_ObjFaninC0(pObj);
-            *pClas++ = pLits;
-            *pLits++ = 2 * OutVar + 1;
-            *pLits++ = 2 * pVars[1] + Aig_ObjFaninC1(pObj);
+        if (pCnf->pVarNums[pObj->Id] == -1) {
+            OutVar = Number++;
+            pCnf->pVarNums[pObj->Id] = OutVar;
+        } else {
+            // This skips over variables that have already been generated.
+            continue;
         }
+
+        pVars[0] = pCnf->pVarNums[Aig_ObjFanin0(pObj)->Id];
+        pVars[1] = pCnf->pVarNums[Aig_ObjFanin1(pObj)->Id];
+
+        // positive phase
+        *pClas++ = pLits;
+        *pLits++ = 2 * OutVar;
+        *pLits++ = 2 * pVars[0] + !Aig_ObjFaninC0(pObj);
+        *pLits++ = 2 * pVars[1] + !Aig_ObjFaninC1(pObj);
+        // negative phase
+        *pClas++ = pLits;
+        *pLits++ = 2 * OutVar + 1;
+        *pLits++ = 2 * pVars[0] + Aig_ObjFaninC0(pObj);
+        *pClas++ = pLits;
+        *pLits++ = 2 * OutVar + 1;
+        *pLits++ = 2 * pVars[1] + Aig_ObjFaninC1(pObj);
+    }
 
     pCnf->nVars = Number;
     //printf("New number of vars: %d\n",  pCnf->nVars);
@@ -409,6 +426,8 @@ Cnf_Dat_t *Cnf_DeriveSimple(Aig_Man_t *p, int nOutputs) {
     Cnf_Dat_t *pCnf;
     int OutVar, PoVar, pVars[32], *pLits, **pClas;
     int i, nLiterals, nClauses, Number;
+    //int counter = 0;
+    int max = 0;
 
     // count the number of literals and clauses
     nLiterals = 1 + 7 * Aig_ManNodeNum(p) + Aig_ManPoNum(p) + 3 * nOutputs;
@@ -419,13 +438,16 @@ Cnf_Dat_t *Cnf_DeriveSimple(Aig_Man_t *p, int nOutputs) {
     memset(pCnf, 0, sizeof(Cnf_Dat_t));
     pCnf->nLiterals = nLiterals;
     pCnf->nClauses = nClauses;
-    pCnf->pClauses = ALLOC(int *, nClauses + 1);
-    pCnf->pClauses[0] = ALLOC(int, nLiterals);
+    pCnf->pClauses = ALLOC(
+    int *, nClauses + 1);
+    pCnf->pClauses[0] = ALLOC(
+    int, nLiterals);
     pCnf->pClauses[nClauses] = pCnf->pClauses[0] + nLiterals;
 
     if (access("output_0.cnf", F_OK) == -1) {
         // create room for variable numbers
-        pCnf->pVarNums = ALLOC(int, Aig_ManObjNumMax(p));
+        pCnf->pVarNums = ALLOC(
+        int, Aig_ManObjNumMax(p));
         memset(pCnf->pVarNums, 0xff, sizeof(int) * Aig_ManObjNumMax(p));
         // assign variables to the last (nOutputs) POs
         // file exists
@@ -433,18 +455,21 @@ Cnf_Dat_t *Cnf_DeriveSimple(Aig_Man_t *p, int nOutputs) {
         Number = 1;
         if (nOutputs) {
             assert(nOutputs == Aig_ManRegNum(p));
-            Aig_ManForEachLiSeq(p, pObj, i) {
+            Aig_ManForEachLiSeq(p, pObj, i)
+            {
                 pCnf->pVarNums[getId(pObj)] = Number++;
                 fprintf(f, "%d\n%d\n", getId(pObj), pCnf->pVarNums[getId(pObj)]);
             }  // = readVarNums[getId(pObj)];
         }
         // assign variables to the internal nodes
-        Aig_ManForEachNode(p, pObj, i) {
-                pCnf->pVarNums[getId(pObj)] = Number++;
-                fprintf(f, "%d\n%d\n", getId(pObj), pCnf->pVarNums[getId(pObj)]);
-            }
+        Aig_ManForEachNode(p, pObj, i)
+        {
+            pCnf->pVarNums[getId(pObj)] = Number++;
+            fprintf(f, "%d\n%d\n", getId(pObj), pCnf->pVarNums[getId(pObj)]);
+        }
         // assign variables to the PIs and constant node
-        Aig_ManForEachPi(p, pObj, i) {
+        Aig_ManForEachPi(p, pObj, i)
+        {
             pCnf->pVarNums[getId(pObj)] = Number++;
             fprintf(f, "%d\n%d\n", getId(pObj), pCnf->pVarNums[getId(pObj)]);
         }
@@ -458,39 +483,55 @@ Cnf_Dat_t *Cnf_DeriveSimple(Aig_Man_t *p, int nOutputs) {
         char *lineC = NULL;
         size_t lenC = 0;
         ssize_t readC;
-        int counter = 0;
-        if (fpC == NULL){
+        if (fpC == NULL) {
             exit(EXIT_FAILURE);
         }
         while ((readC = getline(&lineC, &lenC, fpC)) != -1) {
-            if (strlen(lineC) != 0) { counter++; }
+            if (strlen(lineC) != 0) {
+                if (atoi(lineC) > max) {
+                    max = atoi(lineC);
+                }
+            }
         }
-        counter++;
+        max++;
         fclose(fpC);
         if (lineC) {
             free(lineC);
         }
 
         // create room for variable numbers
-        printf("Counter: %d / %d / %d\n", counter, counter / 2, counter / 4);
-        counter = getMultiplierCNF(counter);
-        pCnf->pVarNums = ALLOC(int, counter / 2);
-        memset(pCnf->pVarNums, 0xff, sizeof(int) * counter / 2);
+        max = getMultiplierCNF(max);
+        printf("Counter: %d / %d / %d\n", max, max / 2, max / 4);
+        int toAlloc = max;
+        Aig_ManForEachObj(p, pObj, i)
+        {
+            if (getId(pObj) > toAlloc) {
+                toAlloc = getId(pObj);
+            }
+        }
+        toAlloc++;
+        printf("ToAlloc: %d!\n", toAlloc);
+        pCnf->pVarNums = ALLOC(
+        int, toAlloc);
+        memset(pCnf->pVarNums, 0xff, sizeof(int) * toAlloc);
 
         //sadly old stuff that is needed to calculate Number
         Number = 1;
         if (nOutputs) {
             assert(nOutputs == Aig_ManRegNum(p));
-            Aig_ManForEachLiSeq(p, pObj, i) {
+            Aig_ManForEachLiSeq(p, pObj, i)
+            {
                 Number++;
             }
         }
         // assign variables to the internal nodes
-        Aig_ManForEachNode(p, pObj, i) {
-                Number++;
-            }
+        Aig_ManForEachNode(p, pObj, i)
+        {
+            Number++;
+        }
         // assign variables to the PIs and constant node
-        Aig_ManForEachPi(p, pObj, i) {
+        Aig_ManForEachPi(p, pObj, i)
+        {
             Number++;
         }
         int tmp_Number = Number;
@@ -518,7 +559,7 @@ Cnf_Dat_t *Cnf_DeriveSimple(Aig_Man_t *p, int nOutputs) {
                 //printf("a/b: %d -> %d", a,b);
                 //TODO Marko check Number
                 if (b < selfCounter) {
-                    b = b + counter / 2;
+                    b = b + max;
                     //printf(", %d",b);
                 }
                 //printf("\n");
@@ -539,36 +580,49 @@ Cnf_Dat_t *Cnf_DeriveSimple(Aig_Man_t *p, int nOutputs) {
         printf("End loading file.\n");
     }
 
-
-// print CNF numbers
+    // print CNF numbers
     printf("SAT numbers of each node:\n");
-    Aig_ManForEachObj(p, pObj, i) {
-            printf("%d=%d ", getId(pObj), pCnf->pVarNums[getId(pObj)]);
+    max = max + 1; //distance between different sat formulas
+    printf("Test: %d\n, ", max);
+    Aig_ManForEachObj(p, pObj, i)
+    {
+        //printf("id:%d ", getId(pObj));
+        fflush(stdout);
+        if (getId(pObj) > max) {
+            //if (pCnf->pVarNums[getId(pObj)] == 0) {
+            pCnf->pVarNums[getId(pObj)] = max++;
         }
+        printf("%d=%d ", getId(pObj), pCnf->pVarNums[getId(pObj)]);
+    }
 
     printf("\n");
 
+    int testing= 0;
     // assign the clauses
     pLits = pCnf->pClauses[0];
     pClas = pCnf->pClauses;
-    Aig_ManForEachNode(p, pObj, i) {
-            OutVar = pCnf->pVarNums[getId(pObj)];
-            pVars[0] = pCnf->pVarNums[getId(Aig_ObjFanin0(pObj))];
-            pVars[1] = pCnf->pVarNums[getId(Aig_ObjFanin1(pObj))];
+    Aig_ManForEachNode(p, pObj, i)
+    {
+        OutVar = pCnf->pVarNums[getId(pObj)];
+        pVars[0] = pCnf->pVarNums[getId(Aig_ObjFanin0(pObj))];
+        pVars[1] = pCnf->pVarNums[getId(Aig_ObjFanin1(pObj))];
 
-            // positive phase
-            *pClas++ = pLits;
-            *pLits++ = 2 * OutVar;
-            *pLits++ = 2 * pVars[0] + !Aig_ObjFaninC0(pObj);
-            *pLits++ = 2 * pVars[1] + !Aig_ObjFaninC1(pObj);
-            // negative phase
-            *pClas++ = pLits;
-            *pLits++ = 2 * OutVar + 1;
-            *pLits++ = 2 * pVars[0] + Aig_ObjFaninC0(pObj);
-            *pClas++ = pLits;
-            *pLits++ = 2 * OutVar + 1;
-            *pLits++ = 2 * pVars[1] + Aig_ObjFaninC1(pObj);
-        }
+        // positive phase
+        *pClas++ = pLits;
+        *pLits++ = 2 * OutVar;
+        *pLits++ = 2 * pVars[0] + !Aig_ObjFaninC0(pObj);
+        *pLits++ = 2 * pVars[1] + !Aig_ObjFaninC1(pObj);
+        printf("Output:%d, ", testing++);
+        // negative phase
+        *pClas++ = pLits;
+        *pLits++ = 2 * OutVar + 1;
+        *pLits++ = 2 * pVars[0] + Aig_ObjFaninC0(pObj);
+        printf("Output:%d, ", testing++);
+        *pClas++ = pLits;
+        *pLits++ = 2 * OutVar + 1;
+        *pLits++ = 2 * pVars[1] + Aig_ObjFaninC1(pObj);
+        printf("Output:%d, ", testing++);
+    }
 
     // write the constant literal
     OutVar = pCnf->pVarNums[getId(Aig_ManConst1(p))];
@@ -578,21 +632,25 @@ Cnf_Dat_t *Cnf_DeriveSimple(Aig_Man_t *p, int nOutputs) {
     *pLits++ = 2 * OutVar;
 
     // write the output literals
-    Aig_ManForEachPo(p, pObj, i) {
+    Aig_ManForEachPo(p, pObj, i)
+    {
         OutVar = pCnf->pVarNums[getId(Aig_ObjFanin0(pObj))];
         if (i < Aig_ManPoNum(p) - nOutputs) {
             *pClas++ = pLits;
             *pLits++ = 2 * OutVar + Aig_ObjFaninC0(pObj);
+            printf("Output1:%d, ", testing++);
         } else {
             PoVar = pCnf->pVarNums[getId(pObj)];
             // first clause
             *pClas++ = pLits;
             *pLits++ = 2 * PoVar;
             *pLits++ = 2 * OutVar + !Aig_ObjFaninC0(pObj);
+            printf("Output2:%d, ", testing++);
             // second clause
             *pClas++ = pLits;
             *pLits++ = 2 * PoVar + 1;
             *pLits++ = 2 * OutVar + Aig_ObjFaninC0(pObj);
+            printf("Output3:%d, ", testing++);
         }
     }
 

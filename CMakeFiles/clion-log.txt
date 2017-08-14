@@ -1,6 +1,6 @@
 /home/marko/software/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/home/marko/workspace/install/reldeb-gcc -G "CodeBlocks - Unix Makefiles" /home/marko/workspace/src/stp-master
 -- Doing a Debug build
--- GIT hash found: d8a838d6378cd546c5153ac815868f8e0ee88f1d
+-- GIT hash found: ddde79a8e09572fd007d2e6fc4bbe05c0ab2b04c
 -- PROJECT_VERSION: 2.1.2
 -- PROJECT_VERSION_MAJOR: 2
 -- PROJECT_VERSION_MINOR: 1
@@ -9,7 +9,7 @@
 -- Found the following Boost libraries:
 --   program_options
 -- Could NOT find cryptominisat5 (missing: cryptominisat5_DIR)
-CMake Warning at CMakeLists.txt:338 (message):
+CMake Warning at CMakeLists.txt:341 (message):
   CryptoMiniSat5 (5.0 or above) or C++11 support not found, not allowing
   --cryptominisat option
 
@@ -30,7 +30,7 @@ CMake Warning at CMakeLists.txt:338 (message):
 -- Python found, enabling python interface
 -- Final CXX flags -std=c++11  -Wall -Wextra -Wunused -pedantic -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -fPIC
 -- Detected python site package directory /usr/lib/python2.7/dist-packages
-CMake Warning at CMakeLists.txt:487 (message):
+CMake Warning at CMakeLists.txt:490 (message):
   Testing is disabled
 
 

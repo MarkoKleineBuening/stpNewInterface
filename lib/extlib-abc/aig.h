@@ -158,7 +158,7 @@ struct Aig_Man_t_
     Aig_TMan_t *     pManTime;       // the timing manager
     Vec_Ptr_t *      vMapped;
     Vec_Int_t *      vFlopNums;
-    Vec_Int_t *      nameList;      //holds forbidden id names
+    //Vec_Int_t *      nameList;      //holds forbidden id names
     int              nameAdd;
     // timing statistics
     int              time1;

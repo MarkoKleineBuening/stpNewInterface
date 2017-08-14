@@ -153,7 +153,7 @@ namespace stp {
 
         void setMap(std::map<std::string, std::vector<int>> map) {
             m_mapNameIndex = map;
-            std::cout << "Vec_IntPush from map: ";
+            /*std::cout << "Vec_IntPush from map: ";
             for (auto &entry : map) {
                 for (int id :entry.second) {
                     Vec_IntPush(aigMgr->nameList, id);
@@ -161,6 +161,7 @@ namespace stp {
                 }
             }
             std::cout << "\n";
+             */
         }
 
         // The same symbol always needs to return the same AIG node,

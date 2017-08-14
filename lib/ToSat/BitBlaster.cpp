@@ -955,7 +955,7 @@ namespace stp {
 
         BBNodeSet support;
         //todo load map edit Marko
-        if ((access("NameToAIG.txt", F_OK) != -1)) {
+        if ((access("output_0.cnf", F_OK) != -1)) {
             nf->setFirstRun(false);
             //loadMap();
             loadMapWithChar();
@@ -963,7 +963,7 @@ namespace stp {
             nf->setFirstRun(true);
         }
         BBNode r = BBForm(form, support);
-        if ((access("NameToAIG.txt", F_OK) == -1)) {
+        if ((access("output_0.cnf", F_OK) == -1)) {
             saveMap();
         }
 

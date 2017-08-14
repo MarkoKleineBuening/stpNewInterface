@@ -122,7 +122,9 @@ namespace stp {
             ssize_t read;
             if (fp == NULL){exit(EXIT_FAILURE);}
             while ((read = getline(&line, &len, fp)) != -1) {
-                count++;
+                if(count < atoi(line)){
+                    count = atoi(line);
+                }
             }
             fclose(fp);
             if (line) {
@@ -133,7 +135,6 @@ namespace stp {
             int count = std::count(std::istreambuf_iterator<char>(inFile),
                                    std::istreambuf_iterator<char>(), '\n');
             inFile.close();*/
-            count = count/2;
             if ((access("output_1.cnf", F_OK) != -1)) {
                 mult++;
             }
