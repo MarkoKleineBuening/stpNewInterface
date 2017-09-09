@@ -1051,12 +1051,12 @@ namespace stp {
             }
             int pos = strLine.find(":");
             std::string name = strLine.substr(0, pos);
-            std::cout << name << ":";
+            //std::cout << name << ":";
             vector<int> indexes;
             std::stringstream f(strLine.substr(pos + 1, strLine.size()));
             std::string s;
             while (getline(f, s, ',')) {
-                std::cout << s << " ";
+                //std::cout << s << " ";
                 indexes.push_back(atoi(s.c_str()));
             }
             map[name] = indexes;
@@ -1190,7 +1190,7 @@ namespace stp {
                 FatalError("BBForm: Illegal kind: ", form);
                 break;
         }
-
+        //TODO Marko return result print
         assert(!result.IsNull());
 
         if (debug_do_check)
@@ -2556,6 +2556,7 @@ namespace stp {
     BBNode BitBlaster<BBNode, BBNodeManagerT>::BBBVLE(const BBNodeVec &left,
                                                       const BBNodeVec &right,
                                                       bool is_signed, bool is_bvlt) {
+        //TODO Marko
         if (bbbvle_variant)
             return BBBVLE_variant1(left, right, is_signed, is_bvlt);
         else
@@ -2608,7 +2609,7 @@ namespace stp {
         typename BBNodeVec::const_reverse_iterator lit = left.rbegin();
         const typename BBNodeVec::const_reverse_iterator litend = left.rend();
         typename BBNodeVec::const_reverse_iterator rit = right.rbegin();
-
+//TODO Marko which one?
         BBNode this_compare_bit =
                 is_signed ? nf->CreateNode(AND, *lit, nf->CreateNode(NOT, *rit))
                           : nf->CreateNode(AND, nf->CreateNode(NOT, *lit), *rit);

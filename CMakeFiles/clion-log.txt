@@ -1,6 +1,6 @@
 /home/marko/software/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/home/marko/workspace/install/reldeb-gcc -G "CodeBlocks - Unix Makefiles" /home/marko/workspace/src/stp-master
 -- Doing a Debug build
--- GIT hash found: ddde79a8e09572fd007d2e6fc4bbe05c0ab2b04c
+-- GIT hash found: c2f7452e65bcb9f4bcd28e92612c84e8b120566d
 -- PROJECT_VERSION: 2.1.2
 -- PROJECT_VERSION_MAJOR: 2
 -- PROJECT_VERSION_MINOR: 1

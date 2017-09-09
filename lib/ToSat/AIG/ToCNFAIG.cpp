@@ -96,7 +96,8 @@ namespace stp {
 
     void ToCNFAIG::toCNF(const BBNodeAIG &top, Cnf_Dat_t *&cnfData,
                          ToSATBase::ASTNodeToSATVar &nodeToVars, bool needAbsRef,
-                         BBNodeManagerAIG &mgr) {
+                         BBNodeManagerAIG &mgr, STPMgr &bm) {
+
         assert(cnfData == NULL);
 
         Aig_ObjCreatePo(mgr.aigMgr, top.n);
@@ -130,21 +131,22 @@ namespace stp {
         }
         assert(cnfData != NULL);
 
-        fill_node_to_var(cnfData, nodeToVars, mgr);
+        fill_node_to_var(cnfData, nodeToVars, mgr, bm);
     }
 
     void ToCNFAIG::fill_node_to_var(
             Cnf_Dat_t *cnfData,
             ToSATBase::ASTNodeToSATVar &nodeToVars,
-            BBNodeManagerAIG &mgr) {
+            BBNodeManagerAIG &mgr, STPMgr &bm) {
         BBNodeManagerAIG::SymbolToBBNode::const_iterator it;
         assert(nodeToVars.size() == 0);
+        std::map<std::string, vector<unsigned int>> mapDashIndex;
 
         // todo. cf. with addvariables above...
         // Each symbol maps to a vector of CNF variables.
         std::cout << "Size of symbolToBB:" << mgr.symbolToBBNode.size() << "\n";
         for (it = mgr.symbolToBBNode.begin(); it != mgr.symbolToBBNode.end(); it++) {
-            const ASTNode& n = it->first;
+            const ASTNode &n = it->first;
             const vector<BBNodeAIG> &b = it->second;
             assert(nodeToVars.find(n) == nodeToVars.end());
 
@@ -157,24 +159,27 @@ namespace stp {
                 if (!b[i].IsNull()) {
                     Aig_Obj_t *pObj;
                     pObj = (Aig_Obj_t *) Vec_PtrEntry(mgr.aigMgr->vPis, b[i].symbol_index);
-                    v[i] = cnfData->pVarNums[pObj->IdName];
-                    //std::cout << "Fill nodes to var "<< b[i].symbol_index<< " of id:"<<v[i]<<"\n";
-                    //b[i].print();
-                    //printf( "%d(%d)=%d=%d ",i,pObj->Id, v[i], b[i]);
+                    //care for llumc the index is set to plus one here
+                    v[i] = cnfData->pVarNums[pObj->IdName]+1;
                 }
                 //printf("\n");
             }
+
             std::string str = n.GetName();
+            mapDashIndex[str]=v;
             std::cout << "NAME/Vector: " << str << " / ";
             for (auto &vec:v) {
                 std::cout << vec << ", ";
             }
             std::cout << "\n";
+
+
             //std::pair<const ASTNode &, vector<unsigned>> make_pair(n, v);
             //std::pair<const ASTNode*, vector<unsigned>> test;
             //test = make_pair(&n,v);
             //std::pair<const ASTNode &, vector<unsigned>> test = make_pair(n,v);
             nodeToVars.insert(make_pair(n, v));
         }
+        bm.setMapDash(mapDashIndex);
     }
 }

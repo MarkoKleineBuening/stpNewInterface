@@ -21,7 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ********************************************************************/
-
+#include <map>
+#include <vector>
 #ifndef _cvcl__include__c_interface_h_
 #define _cvcl__include__c_interface_h_
 
@@ -470,6 +471,10 @@ DLL_PUBLIC void vc_assertFormula(VC vc, Expr e);
 //! \brief Simplifies the given expression with respect to the given validity checker.
 //! 
 DLL_PUBLIC Expr vc_simplify(VC vc, Expr e);
+
+//! \brief returns vector of CNF Indexes from VariableDash
+//!
+std::map<std::string, std::vector<unsigned int>> vc_getDashMap(VC vc);
 
 //! \brief Checks the validity of the given expression 'e' in the given context.
 //! 

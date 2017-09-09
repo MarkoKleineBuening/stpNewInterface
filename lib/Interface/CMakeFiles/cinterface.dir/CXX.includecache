@@ -431,6 +431,10 @@ cstring
 -
 
 include/stp/c_interface.h
+map
+-
+vector
+-
 
 include/stp/config.h
 

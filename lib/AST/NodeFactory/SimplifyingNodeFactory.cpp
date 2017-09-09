@@ -202,15 +202,22 @@ ASTNode SimplifyingNodeFactory::CreateNode(Kind kind, const ASTVec& children)
       if (children[1].GetKind() == stp::BVCONST)
       {
         const unsigned width = children[0].GetValueWidth();
-        if (children[1] == get_largest_number(width))
+        if (children[1] == get_largest_number(width)){
           result = ASTFalse;
+            std::cout << "<false>";
+        }
+        std::cout << "get_largest_number(width):"<<get_largest_number(width)<< "("<<width<<") / "<< children[1]<< "\n";
+
       }
 
       if (children[0].GetKind() == stp::BVCONST)
       {
         const unsigned width = children[0].GetValueWidth();
-        if (children[0] == get_smallest_number(width))
+        if (children[0] == get_smallest_number(width)){
           result = ASTFalse;
+            std::cout << "<false>";
+        }
+        std::cout << "get_largest_number(width):"<<get_largest_number(width)<< "("<<width<<") / "<< children[0]<< "\n";
       }
 
       //2nd part is the same -> only care about 1st part

@@ -34,6 +34,7 @@ THE SOFTWARE.
 // FIXME: External library
 #include "extlib-abc/cnf_short.h"
 
+
 using std::cout;
 using std::ostream;
 using std::stringstream;
@@ -448,7 +449,7 @@ void vc_assertFormula(VC vc, Expr e)
 {
   stp::ASTNode* a = (stp::ASTNode*)e;
   stp::STPMgr* b = (stp::STPMgr*)(((stp::STP*)vc)->bm);
-
+  std::cout << "Kind in vc_assert"<<a->GetKind()<<"\n";
   if (!stp::is_Form_kind(a->GetKind()))
     stp::FatalError("Trying to assert a NON formula: ", *a);
 
@@ -472,6 +473,13 @@ void vc_assertFormula(VC vc, Expr e)
 int vc_query(VC vc, Expr e)
 {
   return vc_query_with_timeout(vc, e, -1);
+}
+
+std::map<std::string, std::vector<unsigned int>> vc_getDashMap(VC vc)
+{
+    stp::STP* stpObj = ((stp::STP*)vc);
+    stp::STPMgr* b = (stp::STPMgr*)(stpObj->bm);
+    return b->mapDashIndex;
 }
 
 int vc_query_with_timeout(VC vc, Expr e, int timeout_ms)
@@ -501,6 +509,7 @@ int vc_query_with_timeout(VC vc, Expr e, int timeout_ms)
   {
     if (v.size() == 1)
     {
+
       output = stpObj->TopLevelSTP(v[0], *a);
     }
     else

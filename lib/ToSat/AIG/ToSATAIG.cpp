@@ -58,21 +58,25 @@ namespace stp {
         handle_cnf_options(cnfData, needAbsRef);
 
         assert(satSolver.nVars() == 0);
-        std::cout << "Before add_cnf.\n";
+        //std::cout << "Before add_cnf.\n";
         //add_cnf_to_solver(satSolver, cnfData);
 
         if (bm->UserFlags.output_bench_flag) {
             cerr << "Converting to CNF via ABC's AIG package can't yet print out bench "
                     "format" << endl;
         }
+        //std::cout << bm->UserFlags.preprocessing_flag<<"\n";
+        //std::cout << bm->UserFlags.output_CNF_flag<<"\n";
+        if(bm->UserFlags.preprocessing_flag==0 && bm->UserFlags.output_CNF_flag==1||true){
+            return 0;
+        }
         //std::cout << "Before release_cnf.\n";
-        //release_cnf_memory(cnfData);
+        release_cnf_memory(cnfData);
 
-        //mark_variables_as_frozen(satSolver);
-        std::cout << "Before return.";
-        return 0;
-        std::cout << "Before runSolver.\n";
-        //return runSolver(satSolver);
+        mark_variables_as_frozen(satSolver);
+
+        //std::cout << "Before runSolver.\n";
+        return runSolver(satSolver);
     }
 
     void ToSATAIG::release_cnf_memory(Cnf_Dat_t *cnfData) {
@@ -172,14 +176,14 @@ namespace stp {
         //print out the AIG Tree
         std::flush(std::cout);
         std::flush(std::cerr);
-        BBFormula.print();
+        //BBFormula.print();
 
         delete cb;
         cb = NULL;
         bb.cb = NULL;
         bm->GetRunTimes()->start(RunTimes::CNFConversion);
         Cnf_Dat_t *cnfData = NULL;
-        toCNF.toCNF(BBFormula, cnfData, nodeToSATVar, needAbsRef, mgr);
+        toCNF.toCNF(BBFormula, cnfData, nodeToSATVar, needAbsRef, mgr, *bm);
         bm->GetRunTimes()->stop(RunTimes::CNFConversion);
 
         // Free the memory in the AIGs.
@@ -204,7 +208,7 @@ namespace stp {
             for (int *pLit = cnfData->pClauses[i], *pStop = cnfData->pClauses[i + 1];
                  pLit < pStop; pLit++) {
                 uint32_t var = (*pLit) >> 1;
-                //TODO MARKO assert((var < satSolver.nVars()));
+                //edit MARKO assert((var < satSolver.nVars()));
                 Minisat::Lit l = SATSolver::mkLit(var, (*pLit) & 1);
                 satSolverClause.push(l);
             }
