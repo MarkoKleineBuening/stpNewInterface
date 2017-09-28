@@ -142,9 +142,9 @@ namespace stp {
         }
 
         void pushVectorIntoMap() {
-            std::cout << " pushVectorIntoMap \n";
+            //std::cout << " pushVectorIntoMap \n";
             if(m_mapNameIndex.find(m_name)==m_mapNameIndex.end()){
-                std::cout << "pushed for real\n";
+               // std::cout << "pushed for real\n";
                 m_mapNameIndex[m_name] = m_vector;
             }
             m_vector.clear();
@@ -170,7 +170,7 @@ namespace stp {
         // The same symbol always needs to return the same AIG node,
         // if it doesn't you will get the wrong answer.
         BBNodeAIG CreateSymbol(const ASTNode &n, unsigned i) {
-            std::cout << "Create Symbol: ";
+            //std::cout << "Create Symbol: ";
             assert(n.GetKind() == SYMBOL);
 
             // booleans have width 0.
@@ -196,15 +196,16 @@ namespace stp {
                 //it->second[i].name_index = aigMgr->vPis->nSize - 1;
             } else {
                 it->second[i].symbol_index = aigMgr->vPis->nSize - 1;
-                it->second[i].n->IdName = m_mapNameIndex.at(m_name).at(m_vectorInt);
-                //Vec_IntPush(aigMgr->nameList, it->second[i].n->IdName);
-                m_vectorInt++;
+                    it->second[i].n->IdName = m_mapNameIndex.at(m_name).at(m_vectorInt);
+                    //Vec_IntPush(aigMgr->nameList, it->second[i].n->IdName);
+                    m_vectorInt++;
+
                 //std::cout << "--loaded as "<<m_name<<
                 //       " at symbol_index: "<< it->second[i].symbol_index << " and name_index: "<< it->second[i].name_index<<"--\n";
             }
 
-            std::cout << "Name/Symbol/Name/ID: " << m_name << "/" << it->second[i].symbol_index << "/"
-                       << it->second[i].n->IdName << "\n";
+            //std::cout << "Name/Symbol/Name/ID: " << m_name << "/" << it->second[i].symbol_index << "/"
+                    //   << it->second[i].n->IdName << "\n";
             m_vector.push_back(it->second[i].n->IdName);
             return it->second[i];
         }

@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="STP" targetName="util" />
+      <config projectName="STP" targetName="printer" />
       <config projectName="STP" targetName="constantbv" />
       <config projectName="STP" targetName="parser_headercvc" />
       <config projectName="STP" targetName="uninstall" />
@@ -20,10 +21,9 @@
       <config projectName="STP" targetName="stpmgr" />
       <config projectName="STP" targetName="parser_headersmt" />
       <config projectName="STP" targetName="parser" />
-      <config projectName="STP" targetName="stpglobals" />
       <config projectName="STP" targetName="ASTKind_header" />
       <config projectName="STP" targetName="libstp" />
-      <config projectName="STP" targetName="printer" />
+      <config projectName="STP" targetName="stpglobals" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -33,88 +33,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0a0007-d2db-4181-888a-9f31d8f63cda" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/libstp.so.2.1" afterPath="$PROJECT_DIR$/lib/libstp.so.2.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stp-2.1.2" afterPath="$PROJECT_DIR$/stp-2.1.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stp_simple" afterPath="$PROJECT_DIR$/stp_simple" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/git-data/head-ref" afterPath="$PROJECT_DIR$/CMakeFiles/git-data/head-ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/STPManager/STPManager.h" afterPath="$PROJECT_DIR$/include/stp/STPManager/STPManager.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h" afterPath="$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/ToSat/AIG/ToCNFAIG.h" afterPath="$PROJECT_DIR$/include/stp/ToSat/AIG/ToCNFAIG.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stp/c_interface.h" afterPath="$PROJECT_DIR$/include/stp/c_interface.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/MutableASTNode.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/MutableASTNode.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o" afterPath="$PROJECT_DIR$/lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp" afterPath="$PROJECT_DIR$/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o" afterPath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/ArrayTransformer.cpp.o" afterPath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/ArrayTransformer.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o" afterPath="$PROJECT_DIR$/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Globals/CMakeFiles/stpglobals.dir/Globals.cpp.o" afterPath="$PROJECT_DIR$/lib/Globals/CMakeFiles/stpglobals.dir/Globals.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cinterface.dir/CXX.includecache" afterPath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cinterface.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o" afterPath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o" afterPath="$PROJECT_DIR$/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Interface/c_interface.cpp" afterPath="$PROJECT_DIR$/lib/Interface/c_interface.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o" afterPath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o" afterPath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o" afterPath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o" afterPath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o" afterPath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o" afterPath="$PROJECT_DIR$/lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o" afterPath="$PROJECT_DIR$/lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o" afterPath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o" afterPath="$PROJECT_DIR$/lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/STPManager/STPManager.cpp" afterPath="$PROJECT_DIR$/lib/STPManager/STPManager.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/AIGSimplifyPropositionalCore.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/AIGSimplifyPropositionalCore.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/BVSolver.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/BVSolver.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/DifficultyScore.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/DifficultyScore.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/FindPureLiterals.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/FindPureLiterals.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/Simplifier.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/Simplifier.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/UseITEContext.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/UseITEContext.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o" afterPath="$PROJECT_DIR$/lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp" afterPath="$PROJECT_DIR$/lib/ToSat/AIG/ToCNFAIG.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp" afterPath="$PROJECT_DIR$/lib/ToSat/AIG/ToSATAIG.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp" afterPath="$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ASTtoCNF.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ASTtoCNF.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o" afterPath="$PROJECT_DIR$/lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Util/CMakeFiles/util.dir/GitSHA1.cpp.o" afterPath="$PROJECT_DIR$/lib/Util/CMakeFiles/util.dir/GitSHA1.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Util/GitSHA1.cpp" afterPath="$PROJECT_DIR$/lib/Util/GitSHA1.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o" afterPath="$PROJECT_DIR$/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c" afterPath="$PROJECT_DIR$/lib/extlib-abc/aig/cnf/cnfWrite.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/extlib-abc/cnf_short.h" afterPath="$PROJECT_DIR$/lib/extlib-abc/cnf_short.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/stp/CMakeFiles/stp.dir/main.cpp.o" afterPath="$PROJECT_DIR$/tools/stp/CMakeFiles/stp.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/stp/CMakeFiles/stp.dir/main_common.cpp.o" afterPath="$PROJECT_DIR$/tools/stp/CMakeFiles/stp.dir/main_common.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/stp_simple/CMakeFiles/stp_simple.dir/__/stp/main_common.cpp.o" afterPath="$PROJECT_DIR$/tools/stp_simple/CMakeFiles/stp_simple.dir/__/stp/main_common.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/stp_simple/CMakeFiles/stp_simple.dir/main_simple.cpp.o" afterPath="$PROJECT_DIR$/tools/stp_simple/CMakeFiles/stp_simple.dir/main_simple.cpp.o" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -191,8 +123,8 @@
       <file leaf-file-name="BitBlaster.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16080">
-              <caret line="1072" column="53" lean-forward="false" selection-start-line="1072" selection-start-column="53" selection-end-line="1072" selection-end-column="53" />
+            <state relative-caret-position="14460">
+              <caret line="964" column="23" lean-forward="false" selection-start-line="964" selection-start-column="19" selection-end-line="964" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -241,8 +173,8 @@
       <file leaf-file-name="BBNodeManagerAIG.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="145" column="43" lean-forward="false" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
+            <state relative-caret-position="397">
+              <caret line="214" column="29" lean-forward="false" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -252,9 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>but</find>
-      <find>but e</find>
-      <find>but ef</find>
       <find>but effe</find>
       <find>but effec</find>
       <find>but effect</find>
@@ -282,6 +211,9 @@
       <find>map</find>
       <find>m_mapNameIndex</find>
       <find>m_vector</find>
+      <find>BVEXTRACT</find>
+      <find>Map is loaded from file:</find>
+      <find>loadMapWithChar</find>
     </findStrings>
     <replaceStrings>
       <replace>IdName</replace>
@@ -802,7 +734,13 @@
       <workItem from="1504159446862" duration="78000" />
       <workItem from="1504782870181" duration="935000" />
       <workItem from="1504962984605" duration="1352000" />
-      <workItem from="1504964922410" duration="99000" />
+      <workItem from="1504964922410" duration="302000" />
+      <workItem from="1505057691902" duration="597000" />
+      <workItem from="1505131562145" duration="1122000" />
+      <workItem from="1505207154452" duration="728000" />
+      <workItem from="1505217782518" duration="25000" />
+      <workItem from="1505232961910" duration="459000" />
+      <workItem from="1506617473611" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="lot">
       <created>1502562187816</created>
@@ -818,11 +756,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502725121272</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bug fix, push to vector">
+      <created>1504965058257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504965058257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216163000" />
+    <option name="totallyTimeSpent" value="219302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
@@ -830,14 +775,14 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29648608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08655332" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08655332" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.50292826" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2565688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3724884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -860,7 +805,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="lot" />
     <MESSAGE value="first example runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="first example runs" />
+    <MESSAGE value="bug fix, push to vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix, push to vector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1213,6 +1159,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14460">
+          <caret line="964" column="23" lean-forward="false" selection-start-line="964" selection-start-column="19" selection-end-line="964" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/stp/ToSat/BitBlaster.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
@@ -1221,18 +1175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ToSat/BitBlaster.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16080">
-          <caret line="1072" column="53" lean-forward="false" selection-start-line="1072" selection-start-column="53" selection-end-line="1072" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/stp/ToSat/AIG/BBNodeManagerAIG.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="145" column="43" lean-forward="false" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
+        <state relative-caret-position="397">
+          <caret line="214" column="29" lean-forward="false" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
           <folding />
         </state>
       </provider>
